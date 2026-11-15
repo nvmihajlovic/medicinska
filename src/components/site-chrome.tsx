@@ -10,13 +10,14 @@ import { preferredLanguage } from "@/lib/language-preference";
 export async function SiteHeader({ locale = "sr" }: { locale?: Locale }) {
   const preference = await preferredLanguage();
   const selectedLocale = locale === "sr" ? preference : locale;
+  locale = selectedLocale;
   const showArchive = selectedLocale === "sr";
   const text = chromeText[locale];
   const name = locale === "sr" ? "Стевица Јовановић" : "Stevica Jovanović";
   return (
     <>
-      <a className="skip-link" href="#main">{text.skip}</a>
-      <div className="topline" role="region" aria-label={text.schoolInfo}>
+      <a className="skip-link" href="#main" lang={locale === "sr" ? "sr-Cyrl" : locale}>{text.skip}</a>
+      <div className="topline" role="region" lang={locale === "sr" ? "sr-Cyrl" : locale} aria-label={text.schoolInfo}>
         <div className="shell topline__inner">
           <span>{text.school} „{name}” · {text.city}</span>
           <div className="topline__contact">
@@ -37,7 +38,7 @@ export async function SiteHeader({ locale = "sr" }: { locale?: Locale }) {
           </div>
         </div>
       </div>
-      <header className="site-header">
+      <header className="site-header" lang={locale === "sr" ? "sr-Cyrl" : locale}>
         <div className="shell header__inner">
           <Link className="brand" href={locale === "sr" ? "/" : `/${locale}`}>
             <Image className="brand__logo" src="/images/school-logo.png" alt="" width={106} height={81} priority />
@@ -54,7 +55,8 @@ export async function SiteHeader({ locale = "sr" }: { locale?: Locale }) {
 }
 
 export async function SiteFooter({ locale = "sr" }: { locale?: Locale }) {
-  const showArchive = locale === "sr" && await preferredLanguage() === "sr";
+  if (locale === "sr") locale = await preferredLanguage();
+  const showArchive = locale === "sr";
   const text = chromeText[locale];
   const name = locale === "sr" ? "Стевица Јовановић" : "Stevica Jovanović";
   const aboutHref = locale === "sr" ? "/o-skoli" : `/${locale}/o-skoli`;
@@ -64,7 +66,7 @@ export async function SiteFooter({ locale = "sr" }: { locale?: Locale }) {
   const informationHref = locale === "sr" ? "/ucenici-i-roditelji" : `/${locale}/ucenici-i-roditelji`;
   const documentsHref = locale === "sr" ? "/dokumentacija" : `/${locale}/dokumentacija`;
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" lang={locale === "sr" ? "sr-Cyrl" : locale}>
       <div className="shell footer-main">
         <div className="footer-brand">
           <Link className="brand brand--footer" href={locale === "sr" ? "/" : `/${locale}`}>
@@ -102,7 +104,7 @@ export async function SiteFooter({ locale = "sr" }: { locale?: Locale }) {
           <Link href={locale === "sr" ? "/uslovi-koriscenja" : `/${locale}/uslovi-koriscenja`}>{text.footerLinks[10]}</Link>
           <Link href={locale === "sr" ? "/privatnost" : `/${locale}/privatnost`}>{text.footerLinks[11]}</Link>
           <Link href={locale === "sr" ? "/kolacici" : `/${locale}/kolacici`}>{text.footerLinks[12]}</Link>
-          <CookieSettingsButton />
+          <CookieSettingsButton locale={locale} />
         </div>
       </div>
       <div className="footer-bottom">

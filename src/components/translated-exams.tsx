@@ -66,7 +66,7 @@ export function ExamProfileContent({ locale, profil }: { locale: Locale; profil:
     <PageHeading locale={locale} {...headings[locale]} sectionHref={`${base}/ispiti-i-materijali`} variants={headings} />
     <section className="academic-exams section">
       <div className="shell academic-exams__layout">
-        <aside><p className="eyebrow"><ExamLabel locale={locale} name="programme" /></p><h2><LanguageText locale={locale} values={{ sr: program.title, ...title }} /></h2><nav aria-label={locale === "sr" ? original.contents : examText[locale].contents}><a href="#ispitna-pitanja"><ExamLabel locale={locale} name="questions" /> ↓</a><a href="#zavrsni-ispit"><ExamLabel locale={locale} name="final" /> ↓</a></nav><Link className="school-page-link" href={`/obrazovni-profili/${profil}`}><ExamLabel locale={locale} name="subjects" /> <span aria-hidden="true">→</span></Link></aside>
+        <aside><p className="eyebrow"><ExamLabel locale={locale} name="programme" /></p><h2><LanguageText locale={locale} values={{ sr: program.title, ...title }} /></h2><nav aria-label={locale === "sr" ? original.contents : examText[locale].contents}><a href="#ispitna-pitanja"><ExamLabel locale={locale} name="questions" /> ↓</a><a href="#zavrsni-ispit"><ExamLabel locale={locale} name="final" /> ↓</a></nav><Link className="school-page-link" href={`${locale === "sr" ? "" : `/${locale}`}/obrazovni-profili/${profil}`}><ExamLabel locale={locale} name="subjects" /> <span aria-hidden="true">→</span></Link></aside>
         <div>
           <p className="academic-muted"><ExamLabel locale={locale} name="original" /></p>
           {missing && <p className="academic-muted"><ExamLabel locale={locale} name="untranslated" /></p>}

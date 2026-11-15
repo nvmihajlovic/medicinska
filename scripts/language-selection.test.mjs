@@ -3,6 +3,8 @@ import { readFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import test from "node:test";
 import vm from "node:vm";
+import React from "react";
+import { renderToStaticMarkup } from "react-dom/server";
 import ts from "typescript";
 
 const source = readFileSync(new URL("../src/app/api/language/route.ts", import.meta.url), "utf8");
@@ -96,4 +98,35 @@ test("language preference proxy ignores prefetched pages", () => {
     assert.equal(matches(`/${locale}/kontakt`, { purpose: "prefetch" }), false);
   }
   assert.equal(matches("/admin", { "next-router-prefetch": "1" }), true);
+});
+
+test("the header and footer follow the selected language on Serbian-only pages", async () => {
+  const source = readFileSync(new URL("../src/components/site-chrome.tsx", import.meta.url), "utf8");
+  const compiled = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true } }).outputText;
+  const realRequire = createRequire(import.meta.url);
+  let preference = "en";
+  const text = (school) => ({ skip: "skip", schoolInfo: "info", school, city: "City", hours: "hours", footerIntro: "intro", footerTitles: ["School", "Students", "Contact"], footerLinks: Array.from({ length: 13 }, (_, index) => `link${index}`) });
+  const modules = {
+    "next/link": { __esModule: true, default: ({ children, href, ...props }) => React.createElement("a", { href, ...props }, children) },
+    "next/image": { __esModule: true, default: () => null },
+    "@/components/cookie-consent": { CookieSettingsButton: () => null },
+    "@/components/site-navigation": { SiteNavigation: ({ locale }) => React.createElement("nav", { "data-locale": locale }) },
+    "@/components/language-switcher": { LanguageSwitcher: () => null },
+    "@/lib/localization": { chromeText: { sr: text("Школа"), en: text("School"), de: text("Schule") } },
+    "@/lib/school-contact": { schoolEmail: "school@example.test" },
+    "@/lib/language-preference": { preferredLanguage: async () => preference },
+  };
+  const chrome = { exports: {} };
+  vm.runInNewContext(compiled, { module: chrome, exports: chrome.exports, require: (id) => modules[id] ?? realRequire(id) });
+  for (const locale of ["en", "de"]) {
+    preference = locale;
+    const header = renderToStaticMarkup(await chrome.exports.SiteHeader({}));
+    const footer = renderToStaticMarkup(await chrome.exports.SiteFooter({}));
+    assert.match(header, new RegExp(`data-locale="${locale}"`));
+    assert.match(header, new RegExp(`href="/${locale}"`));
+    assert.match(footer, new RegExp(`href="/${locale}/kontakt"`));
+  }
+  preference = "sr";
+  assert.match(renderToStaticMarkup(await chrome.exports.SiteHeader({})), /data-locale="sr"/);
+  assert.match(renderToStaticMarkup(await chrome.exports.SiteHeader({ locale: "en" })), /data-locale="en"/);
 });

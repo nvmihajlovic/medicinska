@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState, useSyncExternalStore } from "react";
 import { consentCookie, consentValue, parseConsent } from "@/lib/cookie-consent";
-import { cookieText, localeFromPath } from "@/lib/localization";
+import { cookieText, localeFromPath, type Locale } from "@/lib/localization";
 import "./cookie-consent.css";
 
 const updatedEvent = "school-consent-updated";
@@ -38,26 +38,31 @@ export function openCookieSettings() {
   window.dispatchEvent(new Event(openEvent));
 }
 
-export function CookieSettingsButton() {
-  const text = cookieText[localeFromPath(usePathname())];
-  return <button type="button" className="cookie-settings-link" onClick={openCookieSettings}>{text.settings}</button>;
+export function CookieSettingsButton({ locale }: { locale?: Locale }) {
+  const pathLocale = localeFromPath(usePathname());
+  const text = cookieText[locale ?? pathLocale];
+  return <button type="button" className="cookie-settings-link" onClick={() => window.dispatchEvent(new CustomEvent(openEvent, { detail: locale }))}>{text.settings}</button>;
 }
 
 export function CookieConsent() {
-  const locale = localeFromPath(usePathname());
-  const text = cookieText[locale];
+  const pathLocale = localeFromPath(usePathname());
   const storedChoice = useConsentValue();
   const choice = parseConsent(storedChoice ?? undefined);
   const [settings, setSettings] = useState(false);
   const [opened, setOpened] = useState(false);
+  const [openedLocale, setOpenedLocale] = useState<Locale | null>(null);
   const [analytics, setAnalytics] = useState(false);
   const [video, setVideo] = useState(false);
   const [pending, setPending] = useState(false);
   const [error, setError] = useState("");
+  const locale = opened ? openedLocale ?? pathLocale : pathLocale;
+  const text = cookieText[locale];
 
   useEffect(() => {
-    const open = () => {
+    const open = (event: Event) => {
       const current = parseConsent(snapshot());
+      const selected: unknown = event instanceof CustomEvent ? event.detail : null;
+      setOpenedLocale(selected === "sr" || selected === "en" || selected === "de" ? selected : null);
       setAnalytics(current?.analytics ?? false);
       setVideo(current?.video ?? false);
       setError("");

@@ -33,6 +33,7 @@ function loadComponent(path, modules) {
 test("programme cards reserve space for all languages but expose only the selected text", () => {
   const { HomeProgramCard } = loadComponent("../src/components/home-program-card.tsx", {
     "@/lib/exam-text": { examPrograms: { nursing: { en: "Nurse", de: "Pflegefachkraft" } } },
+    "@/lib/profile-text": { profileTranslations: { nursing: { en: { description: "Description" }, de: { description: "Beschreibung" } } } },
   });
   const program = { id: "nursing", number: "01", title: "Медицинска сестра", description: "Опис", image: "/image.jpg", alt: "Image" };
   for (const locale of ["sr", "en", "de"]) {
@@ -41,6 +42,7 @@ test("programme cards reserve space for all languages but expose only the select
     assert.equal(variants.length, 3);
     assert.equal(variants.filter('[aria-hidden="true"]').length, 2);
     assert.equal(variants.not('[aria-hidden="true"]').find("strong").text(), { sr: "Медицинска сестра", en: "Nurse", de: "Pflegefachkraft" }[locale]);
+    assert.equal($(".program-card").attr("href"), `${locale === "sr" ? "" : `/${locale}`}/obrazovni-profili/nursing`);
     assert.equal(variants.filter('[aria-hidden="true"]').find("a, button").length, 0);
   }
 });
@@ -53,7 +55,7 @@ test("homepage news cards size for translations and retain the Serbian fallback"
     "@/lib/news-illustration": { newsIllustration: () => "/image.jpg" },
     "@/lib/news-translations": { newsTranslation: (source, locale) => source && locale === "en" ? { title: "Translated title", excerpt: "Translated excerpt" } : null },
   });
-  const item = { href: "/vesti/objava-1", title: "Оригинални наслов", excerpt: "Оригинални текст", category: "obavestenja", image: null, date: null, views: 10 };
+  const item = { href: "/vesti/objava-1", title: "Оригинални наслов", excerpt: "Оригинални текст", category: "obavestenja", image: null, date: null, views: 10, likes: 3 };
   for (const locale of ["sr", "en", "de"]) {
     const $ = cheerio.load(renderToStaticMarkup(React.createElement(NewsCard, { item, locale, matchLanguages: true })));
     const variants = $(".school-news-card__body");

@@ -14,6 +14,7 @@ import { documentGroupsText, documentText, documentTitles } from "@/lib/document
 import { schoolEmail } from "@/lib/school-contact";
 import { programmeHeadings, programmeText } from "@/lib/program-text";
 import { examPrograms } from "@/lib/exam-text";
+import { profileImageAlts, profileTranslations } from "@/lib/profile-text";
 import "./school-pages.css";
 
 export const programs = [
@@ -260,7 +261,7 @@ export function Programs({ locale = "sr" }: { locale?: Locale }) {
       <PageHeading locale={locale} {...programmeHeadings[locale]} variants={programmeHeadings} />
       <section className="programs-directory section">
         <div className="shell">
-          <div className="directory-intro"><p className="eyebrow"><LanguageText locale={locale} values={{ sr: "Преглед профила", en: programmeText.en.intro, de: programmeText.de.intro }} /></p><p><LanguageText locale={locale} values={{ sr: "Изаберите профил да бисте прешли на његов опис.", en: `${programmeText.en.select} ${programmeText.en.notice}`, de: `${programmeText.de.select} ${programmeText.de.notice}` }} /></p></div>
+          <div className="directory-intro"><p className="eyebrow"><LanguageText locale={locale} values={{ sr: "Преглед профила", en: programmeText.en.intro, de: programmeText.de.intro }} /></p><p><LanguageText locale={locale} values={{ sr: "Изаберите профил да бисте прешли на његов опис.", en: programmeText.en.select, de: programmeText.de.select }} /></p></div>
           <nav className="program-index" aria-label={text.title}>
             {programs.map((program) => {
               const names = examPrograms[program.id];
@@ -272,14 +273,18 @@ export function Programs({ locale = "sr" }: { locale?: Locale }) {
             {programs.map((program) => {
               const names = examPrograms[program.id];
               if (!names) throw new Error(`Недостаје превод назива профила: ${program.id}`);
+              const translation = profileTranslations[program.id];
+              if (!translation) throw new Error(`Недостаје превод профила: ${program.id}`);
+              const imageAlts = profileImageAlts[program.id];
+              if (!imageAlts) throw new Error(`Недостаје превод описа слике: ${program.id}`);
               return <article className="program-detail" id={program.id} key={program.id}>
-                <div className="program-detail__image"><Image src={program.image} alt={locale === "sr" ? program.alt : ""} width={760} height={520} /></div>
+                <div className="program-detail__image"><Image src={program.image} alt={locale === "sr" ? program.alt : imageAlts[locale]} width={760} height={520} /></div>
                 <div className="program-detail__content">
                   <LanguageBlock locale={locale}>{(language) => <>
                     <p className="eyebrow">{language === "sr" ? "Образовни профил" : programmeText[language].profile} / {program.number}</p>
                     <h2>{language === "sr" ? program.title : names[language]}</h2>
-                    <p lang="sr-Cyrl">{program.overview[0]}</p>
-                    {language === locale ? <Link className="school-page-link" href={`/obrazovni-profili/${program.id}`}>{language === "sr" ? "Предмети и детаљи профила" : programmeText[language].details} <span aria-hidden="true">→</span></Link> : <a className="school-page-link">{language === "sr" ? "Предмети и детаљи профила" : programmeText[language].details} <span aria-hidden="true">→</span></a>}
+                    <p>{language === "sr" ? program.overview[0] : translation[language].overview[0]}</p>
+                    {language === locale ? <Link className="school-page-link" href={`${language === "sr" ? "" : `/${language}`}/obrazovni-profili/${program.id}`}>{language === "sr" ? "Предмети и детаљи профила" : programmeText[language].details} <span aria-hidden="true">→</span></Link> : <a className="school-page-link">{language === "sr" ? "Предмети и детаљи профила" : programmeText[language].details} <span aria-hidden="true">→</span></a>}
                   </>}</LanguageBlock>
                 </div>
               </article>;

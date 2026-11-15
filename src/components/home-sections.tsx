@@ -22,7 +22,7 @@ const text = {
     imageAlts: ["Здравствени радници мере крвни притисак пацијенту", "Новорођенче у болничком окружењу", "Беба седи на поду и игра се дрвеном играчком", "Ученица увежбава поступак здравствене неге"],
   },
   en: {
-    programmesEyebrow: "01 / Secondary vocational education", programmes: "Study programmes", allProgrammes: "All study programmes", profileNotice: "Programme descriptions are in Serbian.",
+    programmesEyebrow: "01 / Secondary vocational education", programmes: "Study programmes", allProgrammes: "All study programmes", profileNotice: "",
     practiceLabel: "Practice in the school skills lab", practiceEyebrow: "Teaching and learning", practiceTitle: "Practice in school skills labs and hospital wards",
     practice: "Exercises in school skills labs and hospital wards connect theoretical learning with healthcare practice. With support from teachers and mentors, students develop professional skills, confidence and a team-based approach to patient care.",
     points: ["Exercises in school skills labs", "Professional practice in hospital wards", "Support from teachers and mentors"], learnMore: "Learn more about the school",
@@ -35,7 +35,7 @@ const text = {
     imageAlts: ["Healthcare workers measuring a patient's blood pressure", "A newborn in a hospital setting", "A baby sitting on the floor and playing with a wooden toy", "A student practising a nursing procedure"],
   },
   de: {
-    programmesEyebrow: "01 / Berufliche Sekundarbildung", programmes: "Bildungsprofile", allProgrammes: "Alle Bildungsprofile", profileNotice: "Die Profilbeschreibungen sind auf Serbisch.",
+    programmesEyebrow: "01 / Berufliche Sekundarbildung", programmes: "Bildungsprofile", allProgrammes: "Alle Bildungsprofile", profileNotice: "",
     practiceLabel: "Übungen im schulischen Fachraum", practiceEyebrow: "Unterricht und Lernen", practiceTitle: "Übungen in Fachräumen und Krankenhausstationen",
     practice: "Übungen in schulischen Fachräumen und auf Krankenhausstationen verbinden theoretisches Wissen mit der Praxis im Gesundheitswesen. Mit Unterstützung der Lehrkräfte entwickeln die Lernenden berufliche Fähigkeiten, Sicherheit und Teamgeist in der Patientenversorgung.",
     points: ["Übungen in schulischen Fachräumen", "Berufliche Praxis auf Krankenhausstationen", "Unterstützung durch Lehrkräfte und Mentorinnen und Mentoren"], learnMore: "Mehr über die Schule",

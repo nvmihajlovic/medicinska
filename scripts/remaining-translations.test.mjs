@@ -20,7 +20,25 @@ const { examScheduleEntries } = load("../src/lib/exam-schedules.ts", { "@/data/e
 const { healthObservances } = load("../src/lib/health-calendar.ts");
 const { healthEntries } = load("../src/lib/health-text.ts");
 const { erasmusText } = load("../src/lib/erasmus-text.ts");
+const { profileImageAlts, profileTranslations, translatedProfileSubject, translatedProfileNote } = load("../src/lib/profile-text.ts");
 const stories = json("../src/data/erasmus-stories.json");
+
+test("all profile descriptions, subjects and notes are translated", () => {
+  for (const profile of academic.profiles) {
+    for (const locale of ["en", "de"]) {
+      const translation = profileTranslations[profile.slug]?.[locale];
+      assert.ok(translation?.description && translation.opportunities && translation.suitable && translation.exam, `${profile.slug}: ${locale}`);
+      assert.ok(profileImageAlts[profile.slug]?.[locale], `${profile.slug} image: ${locale}`);
+      assert.equal(translation.overview.length, 2);
+      assert.equal(translation.learning.length, 4);
+      assert.ok([...translation.overview, ...translation.learning].every(Boolean));
+      for (const year of profile.years) {
+        for (const subject of year.subjects) assert.ok(translatedProfileSubject(subject, locale), `${subject}: ${locale}`);
+      }
+      for (const note of profile.notes) assert.ok(translatedProfileNote(note, locale), `${note}: ${locale}`);
+    }
+  }
+});
 
 test("published exam content, downloads and schedules have both translations", () => {
   for (const locale of ["en", "de"]) {
