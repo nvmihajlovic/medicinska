@@ -1,0 +1,2738 @@
+{
+  "profiles": [
+    {
+      "id": 211,
+      "title": "Гинеколошко-акушерска сестра",
+      "source": "https://medicinskapancevo.edu.rs/o-skoli/obrazovni-profili/ginekolosko-akuserska-sestra/",
+      "modified": "2020-01-24T18:55:46",
+      "slug": "ginekolosko-akuserska-sestra",
+      "years": [
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик*",
+            "Историја",
+            "Музичка уметност",
+            "Ликовна култура",
+            "Физичко васпитање",
+            "Математика",
+            "Рачунарство и информатика",
+            "Географија",
+            "Физика",
+            "Хемија",
+            "Биологија",
+            "Анатомија и физиологија",
+            "Латински језик",
+            "Здравствена нега",
+            "Прва помоћ",
+            "Изборни предмет**"
+          ]
+        },
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик*",
+            "Историја",
+            "Физичко васпитање",
+            "Математика",
+            "Физика",
+            "Хемија",
+            "Здравствена нега",
+            "Хигијена са здравственим",
+            "Микробиологија са епидемиологијом",
+            "Патологија",
+            "Биологија",
+            "Фармакологија",
+            "Психологија",
+            "Изборни предмет**"
+          ]
+        },
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик*",
+            "Социологија",
+            "Физичко васпитање",
+            "Физика",
+            "Хемија",
+            "Биологија",
+            "Здравствена нега",
+            "Педијатрија са негом",
+            "Акушерство са негом",
+            "Хирургија са негом",
+            "Изборни предмет**"
+          ]
+        },
+        {
+          "subjects": [
+            "Српски језики књижевност",
+            "Страни језик*",
+            "Филозофија",
+            "Физичко васпитање",
+            "Физика",
+            "Устав и права грађана",
+            "Медицинска биохемија",
+            "Здравствена нега",
+            "Интерна медицина",
+            "Гинекологија са негом",
+            "Акушерство са негом",
+            "Инфектологија са негом",
+            "Изборни **"
+          ]
+        }
+      ],
+      "notes": [
+        "*Енглески језик, Немачки језик, Руски језик, Француски језик",
+        "**Грађанско васпитање,Верска настава"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Здравствени неговатељ",
+      "source": "https://medicinskapancevo.edu.rs/o-skoli/obrazovni-profili/zdravstveni-negovatelj/",
+      "modified": "2017-11-05T19:42:20",
+      "slug": "zdravstveni-negovatelj",
+      "years": [
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик *",
+            "Физика",
+            "Физичко васпитање",
+            "Математика",
+            "Рачунарство и информатика",
+            "Биологија",
+            "Музичка култура",
+            "Историја",
+            "Анатомија и физиологија",
+            "Латински језик",
+            "Хемија",
+            "Здравствена нега",
+            "Хигијена и здравствено васпитање",
+            "Изборни предмет **"
+          ]
+        },
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик *",
+            "Физичко васпитање",
+            "Математика",
+            "Географија",
+            "Здравствена нега",
+            "Микробиологија са епидемиологијом",
+            "Медицинска биохемија",
+            "Фармакологија",
+            "Патологија",
+            "Исхрана",
+            "Здравствена психологија",
+            "Изборни предмет **",
+            "Изборни предмет ***"
+          ]
+        },
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Физичко васпитање",
+            "Математика",
+            "Социологија са правима грађана",
+            "Здравствена нега",
+            "Основи клиничке медицине",
+            "Инфектологија",
+            "Медицинска рехабилитација",
+            "Неуропсихијатрија",
+            "Здравствена нега у кући",
+            "Предузетништво",
+            "Изборни предмет **",
+            "Изборни предмет ***"
+          ]
+        }
+      ],
+      "notes": [
+        "*Енглески језик, Немачки језик, Руски језик, Француски језик",
+        "**Грађанско васпитање,Верска настава",
+        "***Изборни предмет према програму образовног профила"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Медицинска сестра-васпитач",
+      "source": "https://medicinskapancevo.edu.rs/o-skoli/obrazovni-profili/medicinska-sestra-vaspitac/",
+      "modified": "2017-03-19T13:24:04",
+      "slug": "medicinska-sestra-vaspitac",
+      "years": [
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик*",
+            "Историја",
+            "Музичка уметност",
+            "Ликовна култура",
+            "Физичко васпитање",
+            "Математика",
+            "Рачунарство и информатика",
+            "Географија",
+            "Физика",
+            "Хемија",
+            "Биологија",
+            "Анатомија и физиологија",
+            "Латински језик",
+            "Здравствена нега деце раног узраста",
+            "Изборни предмет**"
+          ]
+        },
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик*",
+            "Историја",
+            "Физичко васпитање",
+            "Математика",
+            "Физика",
+            "Хемија",
+            "Биологија",
+            "Хигијена са здравственим васпитањем",
+            "Микробиологија са епидемиологијом",
+            "Патологија",
+            "Психологија",
+            "Здравствена нега деце раног узраста",
+            "Предшколска педагогија",
+            "Изборни предмет**"
+          ]
+        },
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик*",
+            "Социологија",
+            "Физичко васпитање",
+            "Физика",
+            "Хемија",
+            "Билогија",
+            "Дечја психологија",
+            "Педијатрија са негом",
+            "Васпитање и неге деце",
+            "Књижевност за децу",
+            "Изборни предмет**"
+          ]
+        },
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик*",
+            "Филозофија",
+            "Физичко васпитање",
+            "Физика",
+            "Устав и права грађана",
+            "Медицинска биохемија",
+            "Инфектологија са негом",
+            "Педијатрија са негом",
+            "Васпитање и нега деце",
+            "Музичко васпитање деце раног узраста",
+            "Прва помоћ",
+            "Изборни предмет**"
+          ]
+        }
+      ],
+      "notes": [
+        "*Енглески језик, Немачки језик, Руски језик, Француски језик",
+        "**Грађанско васпитање,Верска настава"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Медицинска сестра-техничар",
+      "source": "https://medicinskapancevo.edu.rs/o-skoli/obrazovni-profili/medicinska-sestra-tehnicar/",
+      "modified": "2017-03-19T13:21:19",
+      "slug": "medicinska-sestra-tehnicar",
+      "years": [
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик*",
+            "Физичко васпитање",
+            "Математика",
+            "Рачунарство и информатика",
+            "Историја",
+            "Музичка култура",
+            "Физика",
+            "Географија",
+            "Хемија",
+            "Биологија",
+            "Анатомија и физиологија",
+            "Прва помоћ",
+            "Латински језик",
+            "Здравствена нега",
+            "Изборни предмет**"
+          ]
+        },
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик*",
+            "Физичко васпитање",
+            "Математика",
+            "Физика",
+            "Биологија",
+            "Здравствена нега",
+            "Патологија",
+            "Микробиологија са епидемиологијом",
+            "Хигијена и здравствено васпитање",
+            "Здравствена психологија",
+            "Фармакологија",
+            "Изборни предмет**",
+            "Медицинска биохемија",
+            "Медицинска етика"
+          ]
+        },
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик*",
+            "Физичко",
+            "Математика",
+            "Социологија са правима грађана",
+            "Здравствена нега",
+            "Инфектологија",
+            "Гинекологија и акушерство",
+            "Интерна медицина",
+            "Хирургија",
+            "Неурологија",
+            "Изборни предмет**",
+            "Изборни предмет***"
+          ]
+        },
+        {
+          "subjects": [
+            "Српски језик и књижевност",
+            "Страни језик",
+            "Физичко",
+            "Математика",
+            "Здравствена нега",
+            "Интерна медицина",
+            "Хирургија",
+            "Педијатрија",
+            "Психијатрија",
+            "Предузетништво",
+            "Изборни предмет***",
+            "Изборни предмет**"
+          ]
+        }
+      ],
+      "notes": [
+        "*Енглески језик, Немачки језик, Руски језик, Француски језик",
+        "**Грађанско васпитање,Верска настава",
+        "***Изборни предмет према програму образовног профила"
+      ]
+    }
+  ],
+  "exams": [
+    {
+      "id": 2974,
+      "title": "Здравствени неговатељ",
+      "source": "https://medicinskapancevo.edu.rs/zdravstveni-negovatelj/",
+      "modified": "2018-01-21T19:37:15",
+      "slug": "zdravstveni-negovatelj",
+      "contents": [
+        {
+          "type": "paragraph",
+          "text": "Завршни испит"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "Радни задаци- практична провера знања",
+              "links": []
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": 2971,
+      "title": "Гинеколошко-акушерска сестра",
+      "source": "https://medicinskapancevo.edu.rs/ginekolosko-akuserska-sestra/",
+      "modified": "2020-01-24T18:51:53",
+      "slug": "ginekolosko-akuserska-sestra",
+      "contents": [
+        {
+          "type": "paragraph",
+          "text": "Матурски испит:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "Српски језик и књижевност( писмени задатак )",
+              "links": []
+            },
+            {
+              "text": "Практични део испита:",
+              "links": []
+            },
+            {
+              "text": "*Гинекологија са негом",
+              "links": []
+            },
+            {
+              "text": "*Акушерство са негом",
+              "links": []
+            },
+            {
+              "text": "*Здравствена нега( Гинеколошко-акушерско одељење)",
+              "links": []
+            },
+            {
+              "text": "Изборни предмети:",
+              "links": []
+            },
+            {
+              "text": "*Физика",
+              "links": []
+            },
+            {
+              "text": "*Хемија",
+              "links": []
+            },
+            {
+              "text": "*Биологија",
+              "links": []
+            },
+            {
+              "text": "*Математика ГАС-Математика",
+              "links": [
+                {
+                  "title": "ГАС-Математика",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2020/01/%D0%93%D0%90%D0%A1-%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf"
+                }
+              ]
+            },
+            {
+              "text": "*Страни језик",
+              "links": []
+            },
+            {
+              "text": "*Психологија",
+              "links": []
+            },
+            {
+              "text": "*Филозофија",
+              "links": []
+            },
+            {
+              "text": "*Акушерство са негом",
+              "links": []
+            },
+            {
+              "text": "*Гинекологија са негом",
+              "links": []
+            },
+            {
+              "text": "*Педијатрија са негом",
+              "links": []
+            },
+            {
+              "text": "*Инфектологија са негом",
+              "links": []
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "title": "ГАС-Математика",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2020/01/%D0%93%D0%90%D0%A1-%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2968,
+      "title": "Медицинска сестра-васпитач",
+      "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+      "modified": "2018-02-28T14:31:50",
+      "slug": "medicinska-sestra-vaspitac",
+      "contents": [
+        {
+          "type": "paragraph",
+          "text": "Матурски испит:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "Српски језики књижевност( писмени задатак )",
+              "links": []
+            },
+            {
+              "text": "Практични део испита:",
+              "links": []
+            },
+            {
+              "text": "*Васпитање и нега деце( предшколска установа )",
+              "links": []
+            },
+            {
+              "text": "*Педијатрија са негом( Педијатријско одељење )",
+              "links": []
+            },
+            {
+              "text": "Изборни предмети:",
+              "links": []
+            },
+            {
+              "text": "*Математика MСВ Mатематика",
+              "links": [
+                {
+                  "title": "MСВ Mатематика",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/M%D0%A1%D0%92-M%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.docx"
+                }
+              ]
+            },
+            {
+              "text": "*Страни језик МСВ Немачки језик, МСВ Немачки језик-граматика МСВ Енглески језик",
+              "links": [
+                {
+                  "title": "МСВ Немачки језик",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9D%D0%B5%D0%BC%D0%B0%D1%87%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA.docx"
+                },
+                {
+                  "title": "МСВ Немачки језик-граматика",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9D%D0%B5%D0%BC%D0%B0%D1%87%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA-%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf"
+                },
+                {
+                  "title": "МСВ Енглески језик",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%95%D0%BD%D0%B3%D0%BB%D0%B5%D1%81%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA.doc"
+                }
+              ]
+            },
+            {
+              "text": "*Психологија МСВ Психологија",
+              "links": [
+                {
+                  "title": "МСВ Психологија",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.doc"
+                }
+              ]
+            },
+            {
+              "text": "*Дечја психологија МСВ Дечја психологија",
+              "links": [
+                {
+                  "title": "МСВ Дечја психологија",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%94%D0%B5%D1%87%D1%98%D0%B0-%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.docx"
+                }
+              ]
+            },
+            {
+              "text": "*Филозофија МСВ Филозофија",
+              "links": [
+                {
+                  "title": "МСВ Филозофија",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%A4%D0%B8%D0%BB%D0%BE%D0%B7%D0%BE%D1%84%D0%B8%D1%98%D0%B0.pdf"
+                }
+              ]
+            },
+            {
+              "text": "*Васпитање и нега деце МСВ Васпитање и нега деце-теорија",
+              "links": [
+                {
+                  "title": "МСВ Васпитање и нега деце-теорија",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%92%D0%B0%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D1%9A%D0%B5-%D0%B8-%D0%BD%D0%B5%D0%B3%D0%B0-%D0%B4%D0%B5%D1%86%D0%B5-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0.docx"
+                }
+              ]
+            },
+            {
+              "text": "*Предшколска педагогија МСВ Предшколска педагогија",
+              "links": [
+                {
+                  "title": "МСВ Предшколска педагогија",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D1%80%D0%B5%D0%B4%D1%88%D0%BA%D0%BE%D0%BB%D1%81%D0%BA%D0%B0-%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.doc"
+                }
+              ]
+            },
+            {
+              "text": "*Педијатрија са негом МСВ Педијатрија-теорија",
+              "links": [
+                {
+                  "title": "МСВ Педијатрија-теорија",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D0%B5%D0%B4%D0%B8%D1%98%D0%B0%D1%82%D1%80%D0%B8%D1%98%D0%B0-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0.doc"
+                }
+              ]
+            },
+            {
+              "text": "*Област уметности МСВ-Ликовна култура МСВ-Музичка култура",
+              "links": [
+                {
+                  "title": "МСВ-Ликовна култура",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/02/%D0%9C%D0%A1%D0%92-%D0%9B%D0%B8%D0%BA%D0%BE%D0%B2%D0%BD%D0%B0-%D0%BA%D1%83%D0%BB%D1%82%D1%83%D1%80%D0%B0.docx"
+                },
+                {
+                  "title": "МСВ-Музичка култура",
+                  "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/02/%D0%9C%D0%A1%D0%92-%D0%9C%D1%83%D0%B7%D0%B8%D1%87%D0%BA%D0%B0-%D0%BA%D1%83%D0%BB%D1%82%D1%83%D1%80%D0%B0.doc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Документ можете преузети једноставним кликом на плаво поље."
+        }
+      ],
+      "links": [
+        {
+          "title": "MСВ Mатематика",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/M%D0%A1%D0%92-M%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.docx"
+        },
+        {
+          "title": "МСВ Немачки језик",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9D%D0%B5%D0%BC%D0%B0%D1%87%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA.docx"
+        },
+        {
+          "title": "МСВ Немачки језик-граматика",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9D%D0%B5%D0%BC%D0%B0%D1%87%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA-%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf"
+        },
+        {
+          "title": "МСВ Енглески језик",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%95%D0%BD%D0%B3%D0%BB%D0%B5%D1%81%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA.doc"
+        },
+        {
+          "title": "МСВ Психологија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.doc"
+        },
+        {
+          "title": "МСВ Дечја психологија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%94%D0%B5%D1%87%D1%98%D0%B0-%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.docx"
+        },
+        {
+          "title": "МСВ Филозофија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%A4%D0%B8%D0%BB%D0%BE%D0%B7%D0%BE%D1%84%D0%B8%D1%98%D0%B0.pdf"
+        },
+        {
+          "title": "МСВ Васпитање и нега деце-теорија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%92%D0%B0%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D1%9A%D0%B5-%D0%B8-%D0%BD%D0%B5%D0%B3%D0%B0-%D0%B4%D0%B5%D1%86%D0%B5-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0.docx"
+        },
+        {
+          "title": "МСВ Предшколска педагогија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D1%80%D0%B5%D0%B4%D1%88%D0%BA%D0%BE%D0%BB%D1%81%D0%BA%D0%B0-%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.doc"
+        },
+        {
+          "title": "МСВ Педијатрија-теорија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D0%B5%D0%B4%D0%B8%D1%98%D0%B0%D1%82%D1%80%D0%B8%D1%98%D0%B0-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0.doc"
+        },
+        {
+          "title": "МСВ-Ликовна култура",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/02/%D0%9C%D0%A1%D0%92-%D0%9B%D0%B8%D0%BA%D0%BE%D0%B2%D0%BD%D0%B0-%D0%BA%D1%83%D0%BB%D1%82%D1%83%D1%80%D0%B0.docx"
+        },
+        {
+          "title": "МСВ-Музичка култура",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/02/%D0%9C%D0%A1%D0%92-%D0%9C%D1%83%D0%B7%D0%B8%D1%87%D0%BA%D0%B0-%D0%BA%D1%83%D0%BB%D1%82%D1%83%D1%80%D0%B0.doc"
+        }
+      ]
+    },
+    {
+      "id": 2965,
+      "title": "Медицинска сестра-техничар",
+      "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-tehnicar/",
+      "modified": "2020-01-21T18:55:09",
+      "slug": "medicinska-sestra-tehnicar",
+      "contents": [
+        {
+          "type": "paragraph",
+          "text": "Матурски испит:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "Српски језик и књижевност( писмени задатак )",
+              "links": []
+            },
+            {
+              "text": "Тест знања( Здравствена нега I, II, III, IV; Хирургија; Интерна медицина; Инфектологија)",
+              "links": []
+            },
+            {
+              "text": "Здравствена нега( Радни задаци- практични део испита)",
+              "links": []
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Приручник о полагању матурског испита можете преузети овде."
+        },
+        {
+          "type": "paragraph",
+          "text": "Медицинска сестра-техничар приручник"
+        }
+      ],
+      "links": [
+        {
+          "title": "Медицинска сестра-техничар приручник",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2019/01/Medicinska-sestra-tehni%C4%8Dar-priru%C4%8Dnik.pdf"
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": 6314,
+      "title": "Документација",
+      "source": "https://medicinskapancevo.edu.rs/dokumentacija/",
+      "modified": "2025-02-25T14:49:20",
+      "path": "/dokumentacija/",
+      "links": [
+        {
+          "title": "Приручник-за-родитеље",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/09/%D0%9F%D1%80%D0%B8%D1%80%D1%83%D1%87%D0%BD%D0%B8%D0%BA-%D0%B7%D0%B0-%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D1%99%D0%B5.pdf"
+        },
+        {
+          "title": "Критеријум-оцењивања-ученика-Наставни-предмет-Математика",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/09/%D0%9A%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D1%98%D1%83%D0%BC-%D0%BE%D1%86%D0%B5%D1%9A%D0%B8%D0%B2%D0%B0%D1%9A%D0%B0-%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9D%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82-%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf"
+        },
+        {
+          "title": "Критеријуми-за-оцењивање-за-веће-природних-наука",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/09/%D0%9A%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D1%98%D1%83%D0%BC%D0%B8-%D0%B7%D0%B0-%D0%BE%D1%86%D0%B5%D1%9A%D0%B8%D0%B2%D0%B0%D1%9A%D0%B5-%D0%B7%D0%B0-%D0%B2%D0%B5%D1%9B%D0%B5-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D1%85-%D0%BD%D0%B0%D1%83%D0%BA%D0%B0.docx"
+        },
+        {
+          "title": "Правила-понашања-у-Медицинској-школи-од-13.09.2024.",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/12/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%BF%D0%BE%D0%BD%D0%B0%D1%88%D0%B0%D1%9A%D0%B0-%D1%83-%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D1%98-%D1%88%D0%BA%D0%BE%D0%BB%D0%B8-%D0%BE%D0%B4-13.09.2024..pdf"
+        },
+        {
+          "title": "Годишњи-план-2024-2025",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2025/02/%D0%93%D0%BE%D0%B4%D0%B8%D1%88%D1%9A%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2024-2025.pdf"
+        },
+        {
+          "title": "Школски-програм",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2025/02/%D0%A8%D0%BA%D0%BE%D0%BB%D1%81%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC.pdf"
+        }
+      ]
+    },
+    {
+      "id": 3498,
+      "title": "Јавне набавке и финансијски извештаји",
+      "source": "https://medicinskapancevo.edu.rs/javne-nabavke-2/",
+      "modified": "2026-06-05T22:52:15",
+      "path": "/javne-nabavke-2/",
+      "links": [
+        {
+          "title": "Фук-Правилник",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2021/03/%D0%A4%D1%83%D0%BA-%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BD%D0%B8%D0%BA.docx"
+        },
+        {
+          "title": "Позив за понуду за набавку струје 2021",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2021/02/%D0%9F%D0%BE%D0%B7%D0%B8%D0%B2-%D0%B7%D0%B0-%D0%BF%D0%BE%D0%BD%D1%83%D0%B4%D1%83-%D0%B7%D0%B0-%D0%BD%D0%B0%D0%B1%D0%B0%D0%B2%D0%BA%D1%83-%D1%81%D1%82%D1%80%D1%83%D1%98%D0%B5-2021.doc"
+        },
+        {
+          "title": "Завршни рачун 2020",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2021/02/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2020.pdf"
+        },
+        {
+          "title": "Завршни рачун 2018",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2019/03/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2018.pdf"
+        },
+        {
+          "title": "Завршни рачун 2019",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2020/03/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2019.pdf"
+        },
+        {
+          "title": "Позив за подношење понуде матурска екскурзија 2020-2021",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2020/02/%D0%9F%D0%BE%D0%B7%D0%B8%D0%B2-%D0%B7%D0%B0-%D0%BF%D0%BE%D0%B4%D0%BD%D0%BE%D1%88%D0%B5%D1%9A%D0%B5-%D0%BF%D0%BE%D0%BD%D1%83%D0%B4%D0%B5-%D0%BC%D0%B0%D1%82%D1%83%D1%80%D1%81%D0%BA%D0%B0-%D0%B5%D0%BA%D1%81%D0%BA%D1%83%D1%80%D0%B7%D0%B8%D1%98%D0%B0-2020-2021.pdf"
+        },
+        {
+          "title": "Конкурсна документација матурска екскурзија 2020-2021",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2020/02/%D0%9A%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%98%D0%B0-%D0%BC%D0%B0%D1%82%D1%83%D1%80%D1%81%D0%BA%D0%B0%D0%B5%D0%BA%D1%81%D0%BA%D1%83%D1%80%D0%B7%D0%B8%D1%98%D0%B0-2020-2021.docx"
+        },
+        {
+          "title": "Завршни-рачун-2025",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2026/06/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2025.pdf"
+        },
+        {
+          "title": "Финансијски-план-2026-измена-мај",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2026/06/%D0%A4%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%B8%D1%98%D1%81%D0%BA%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2026-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B0-%D0%BC%D0%B0%D1%98.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2971,
+      "title": "Гинеколошко-акушерска сестра",
+      "source": "https://medicinskapancevo.edu.rs/ginekolosko-akuserska-sestra/",
+      "modified": "2020-01-24T18:51:53",
+      "path": "/ginekolosko-akuserska-sestra/",
+      "links": [
+        {
+          "title": "ГАС-Математика",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2020/01/%D0%93%D0%90%D0%A1-%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2968,
+      "title": "Медицинска сестра-васпитач",
+      "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+      "modified": "2018-02-28T14:31:50",
+      "path": "/medicinska-sestra-vaspitac/",
+      "links": [
+        {
+          "title": "MСВ Mатематика",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/M%D0%A1%D0%92-M%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.docx"
+        },
+        {
+          "title": "МСВ Немачки језик",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9D%D0%B5%D0%BC%D0%B0%D1%87%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA.docx"
+        },
+        {
+          "title": "МСВ Немачки језик-граматика",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9D%D0%B5%D0%BC%D0%B0%D1%87%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA-%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf"
+        },
+        {
+          "title": "МСВ Енглески језик",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%95%D0%BD%D0%B3%D0%BB%D0%B5%D1%81%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA.doc"
+        },
+        {
+          "title": "МСВ Психологија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.doc"
+        },
+        {
+          "title": "МСВ Дечја психологија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%94%D0%B5%D1%87%D1%98%D0%B0-%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.docx"
+        },
+        {
+          "title": "МСВ Филозофија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%A4%D0%B8%D0%BB%D0%BE%D0%B7%D0%BE%D1%84%D0%B8%D1%98%D0%B0.pdf"
+        },
+        {
+          "title": "МСВ Васпитање и нега деце-теорија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%92%D0%B0%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D1%9A%D0%B5-%D0%B8-%D0%BD%D0%B5%D0%B3%D0%B0-%D0%B4%D0%B5%D1%86%D0%B5-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0.docx"
+        },
+        {
+          "title": "МСВ Предшколска педагогија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D1%80%D0%B5%D0%B4%D1%88%D0%BA%D0%BE%D0%BB%D1%81%D0%BA%D0%B0-%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.doc"
+        },
+        {
+          "title": "МСВ Педијатрија-теорија",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D0%B5%D0%B4%D0%B8%D1%98%D0%B0%D1%82%D1%80%D0%B8%D1%98%D0%B0-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0.doc"
+        },
+        {
+          "title": "МСВ-Ликовна култура",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/02/%D0%9C%D0%A1%D0%92-%D0%9B%D0%B8%D0%BA%D0%BE%D0%B2%D0%BD%D0%B0-%D0%BA%D1%83%D0%BB%D1%82%D1%83%D1%80%D0%B0.docx"
+        },
+        {
+          "title": "МСВ-Музичка култура",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/02/%D0%9C%D0%A1%D0%92-%D0%9C%D1%83%D0%B7%D0%B8%D1%87%D0%BA%D0%B0-%D0%BA%D1%83%D0%BB%D1%82%D1%83%D1%80%D0%B0.doc"
+        }
+      ]
+    },
+    {
+      "id": 2965,
+      "title": "Медицинска сестра-техничар",
+      "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-tehnicar/",
+      "modified": "2020-01-21T18:55:09",
+      "path": "/medicinska-sestra-tehnicar/",
+      "links": [
+        {
+          "title": "Медицинска сестра-техничар приручник",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2019/01/Medicinska-sestra-tehni%C4%8Dar-priru%C4%8Dnik.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2683,
+      "title": "Ванредно школовање",
+      "source": "https://medicinskapancevo.edu.rs/vanredno-skolovanje/",
+      "modified": "2019-11-06T22:08:58",
+      "path": "/vanredno-skolovanje/",
+      "links": [
+        {
+          "title": "Висина школарине – ванредни ученици",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2019/10/visina-skolarine-vanredni-ucenici-2018-19.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2616,
+      "title": "Радови ученика",
+      "source": "https://medicinskapancevo.edu.rs/radovi-ucenika/",
+      "modified": "2017-06-29T22:45:07",
+      "path": "/radovi-ucenika/",
+      "links": [
+        {
+          "title": "NEKI PROBLEMI BIOETIKE_ZBORNIK UCENICKIH RADOVA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/06/NEKI-PROBLEMI-BIOETIKE_ZBORNIK-UCENICKIH-RADOVA.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2237,
+      "title": "Драмска секција",
+      "source": "https://medicinskapancevo.edu.rs/dramska-sekcija/",
+      "modified": "2018-10-19T18:19:41",
+      "path": "/dramska-sekcija/",
+      "links": [
+        {
+          "title": "Dramamed",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/03/Dramamed.pptx"
+        }
+      ]
+    },
+    {
+      "id": 1507,
+      "title": "Школски часопис",
+      "source": "https://medicinskapancevo.edu.rs/plan-kontrolnih-i-pismenih-vezbi/",
+      "modified": "2019-11-27T17:14:17",
+      "path": "/plan-kontrolnih-i-pismenih-vezbi/",
+      "links": [
+        {
+          "title": "Пулс-БРОЈ 1",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2019/11/%D0%9F%D1%83%D0%BB%D1%81-%D0%91%D0%A0%D0%9E%D0%88-1.pdf"
+        }
+      ]
+    },
+    {
+      "id": 1480,
+      "title": "Медицинска сестра-васпитач",
+      "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+      "modified": "2017-11-08T12:00:54",
+      "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+      "links": [
+        {
+          "title": "II RAZRED-PREDŠKOLSKA PEDAGOGIJA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-PRED%C5%A0KOLSKA-PEDAGOGIJA.doc",
+          "path": "/skolski-materijali/document-c8d2d2cc71fd56ef.doc"
+        },
+        {
+          "title": "III RAZRED-DEČIJA PSIHOLOGIJA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-DE%C4%8CIJA-PSIHOLOGIJA.doc"
+        },
+        {
+          "title": "III RAZRED-KNJIŽEVNOST ZA DECU",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-KNJI%C5%BDEVNOST-ZA-DECU.docx"
+        },
+        {
+          "title": "III RAZRED-PEDIJATRIJA SA NEGOM(teorija)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-PEDIJATRIJA-SA-NEGOMteorija.doc"
+        },
+        {
+          "title": "III RAZRED-PEDIJATRIJA SA NEGOM(vežbe)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-PEDIJATRIJA-SA-NEGOMve%C5%BEbe.docx"
+        },
+        {
+          "title": "III RAZRED-VASPITANJE I NEGA DECE(teorija)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-VASPITANJE-I-NEGA-DECEteorija.doc"
+        },
+        {
+          "title": "III RAZRED-VASPITANJE I NEGA DECE(vežbe)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-VASPITANJE-I-NEGA-DECEve%C5%BEbe.doc"
+        },
+        {
+          "title": "IV RAZRED-VASPITANJE I NEGA DECE(vežbe)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-VASPITANJE-I-NEGA-DECEve%C5%BEbe.doc"
+        },
+        {
+          "title": "IV RAZRED-PEDIJATRIJA SA NEGOM (teorija)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-PEDIJATRIJA-SA-NEGOM-teorija.docx"
+        },
+        {
+          "title": "IV RAZRED-PEDIJATRIJA SA NEGOM(vežbe)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-PEDIJATRIJA-SA-NEGOMve%C5%BEbe.doc"
+        },
+        {
+          "title": "PSIHOLOGIJA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/PSIHOLOGIJA.doc"
+        }
+      ]
+    },
+    {
+      "id": 1477,
+      "title": "Медицинска сестра-техничар",
+      "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+      "modified": "2022-02-28T15:06:11",
+      "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+      "links": [
+        {
+          "title": "I RAZRED-ZDRAVSTVENA NEGA I",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/I-RAZRED-ZDRAVSTVENA-NEGA-I.doc"
+        },
+        {
+          "title": "I RAZRED-ANATOMIJA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-ANATOMIJA.doc"
+        },
+        {
+          "title": "I RAZRED-GEOGRAFIJA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-GEOGRAFIJA.docx"
+        },
+        {
+          "title": "I RAZRED-ISTORIJA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-ISTORIJA.docx"
+        },
+        {
+          "title": "I RAZRED-LATINSKI JEZIK",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-LATINSKI-JEZIK.doc"
+        },
+        {
+          "title": "I RAZRED-PRVA POMOC",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-PRVA-POMOC.doc"
+        },
+        {
+          "title": "II RAZRED-ZDR. PSIHOLOGIJA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/II-RAZRED-ZDR.-PSIHOLOGIJA.docx"
+        },
+        {
+          "title": "II RAZRED-BIOLOGIJA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-BIOLOGIJA.docx"
+        },
+        {
+          "title": "II RAZRED-FIZIKA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-FIZIKA.doc"
+        },
+        {
+          "title": "II RAZRED-MEDICINSKA ETIKA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-MEDICINSKA-ETIKA.doc"
+        },
+        {
+          "title": "II RAZRED-ZDR.NEGA II TEORIJA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-ZDR.NEGA-II-TEORIJA.docx"
+        },
+        {
+          "title": "II RAZRED-ZDR.NEGA II",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-ZDR.NEGA-II.doc"
+        },
+        {
+          "title": "III RAZRED-SOCIOLOGIJA I PRAVA GRAĐANA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-SOCIOLOGIJA-I-PRAVA-GRA%C4%90ANA.docx"
+        },
+        {
+          "title": "III RAZRED-KULTURA TELA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-KULTURA-TELA.docx"
+        },
+        {
+          "title": "III RAZRED-GINEKOLOGIJA(vežbe)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-GINEKOLOGIJAve%C5%BEbe.docx"
+        },
+        {
+          "title": "III RAZRED-NEUROLOGIJA(vežbe)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-NEUROLOGIJAve%C5%BEbe.docx"
+        },
+        {
+          "title": "III RAZRED-ZD.NEGA U HIRURGIJI(vežbe)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZD.NEGA-U-HIRURGIJIve%C5%BEbe.docx"
+        },
+        {
+          "title": "III RAZRED-ZDR.NEGA U INFEKTOLOGIJI(vežbe)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZDR.NEGA-U-INFEKTOLOGIJIve%C5%BEbe.doc"
+        },
+        {
+          "title": "III RAZRED-ZDR.NEGA U INTERNOJ MEDICINI(vežbe)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZDR.NEGA-U-INTERNOJ-MEDICINIve%C5%BEbe.docx"
+        },
+        {
+          "title": "III RAZRED-ZDR. NEGA III TEORIJA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZDR.-NEGA-III-TEORIJA.doc"
+        },
+        {
+          "title": "IV RAZRED-PEDIJATRIJA(vežbe)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2022/02/IV-RAZRED-PEDIJATRIJAvezbe.docx"
+        },
+        {
+          "title": "IV RAZRED-ZDRAVSTVENA NEGA",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/03/IV-RAZRED-ZDRAVSTVENA-NEGA.docx"
+        },
+        {
+          "title": "IV RAZRED-PREDUZETNIŠTVO",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-PREDUZETNI%C5%A0TVO.docx"
+        },
+        {
+          "title": "IV-RAZRED-PEDIJATRIJA(teorija)",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/03/IV-RAZRED-PEDIJATRIJAteorija-1.docx"
+        }
+      ]
+    },
+    {
+      "id": 1379,
+      "title": "Кутак за родитеље",
+      "source": "https://medicinskapancevo.edu.rs/o-skoli/kutak-za-roditelje/",
+      "modified": "2024-05-10T21:20:29",
+      "path": "/o-skoli/kutak-za-roditelje/",
+      "links": [
+        {
+          "title": "Приручник-за-родитеље",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/05/%D0%9F%D1%80%D0%B8%D1%80%D1%83%D1%87%D0%BD%D0%B8%D0%BA-%D0%B7%D0%B0-%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D1%99%D0%B5.pdf",
+          "path": "/skolski-materijali/document-7e86e00283bae1d3.pdf"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Уџбеници",
+      "source": "https://medicinskapancevo.edu.rs/ucenici/udzbenici/",
+      "modified": "2017-03-19T12:07:19",
+      "path": "/ucenici/udzbenici/",
+      "links": [
+        {
+          "title": "spisak-udzbenika-2016-2017",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/09/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA-%D1%83%D1%9F%D0%B1%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0-2016-2017.docx"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Документи",
+      "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+      "modified": "2024-09-08T15:14:06",
+      "path": "/o-skoli/dokumenti/",
+      "links": [
+        {
+          "title": "ДОКУМЕНТ О ВРЕДНОВАЊУ СТАЛНОГ СТРУЧНОГ УСАВРШАВАЊА",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/DOKUMENT-O-VREDNOVANJU-STALNOG-STRUCNOG-USAVRSAVANJA_-MEDICINSKA-SKOLA_PANCEVO.pdf"
+        },
+        {
+          "title": "ЕВАЛУАЦИОНИ ЛИСТ ЗА НАСТАВНИКЕ",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/07/EVALUACIONI-LIST-ZA-NASTAVNIKE.pdf"
+        },
+        {
+          "title": "ПРАВИЛНИК О ОЦЕЊИВАЊУ",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2019/09/%D0%9F%D0%A0%D0%90%D0%92%D0%98%D0%9B%D0%9D%D0%98%D0%9A-%D0%9E-%D0%9E%D0%A6%D0%95%D0%8A%D0%98%D0%92%D0%90%D0%8A%D0%A3.pdf"
+        },
+        {
+          "title": "Развојни план-2021-2025",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2022/11/%D0%A0%D0%B0%D0%B7%D0%B2%D0%BE%D1%98%D0%BD%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2021-2025.doc"
+        },
+        {
+          "title": "СИСТЕМАТИЗАЦИЈА-СА-БРОЈЕМ-ИЗВРШИЛАЦА",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2022/11/%D0%A1%D0%98%D0%A1%D0%A2%D0%95%D0%9C%D0%90%D0%A2%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%88%D0%90-%D0%A1%D0%90-%D0%91%D0%A0%D0%9E%D0%88%D0%95%D0%9C-%D0%98%D0%97%D0%92%D0%A0%D0%A8%D0%98%D0%9B%D0%90%D0%A6%D0%90-%D0%BD%D0%B0%D1%98%D0%BD%D0%BE%D0%B2%D0%B8%D1%98%D0%B5.doc"
+        },
+        {
+          "title": "Годишњи-план-рада-2022-2023",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2022/11/%D0%93%D0%BE%D0%B4%D0%B8%D1%88%D1%9A%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-%D1%80%D0%B0%D0%B4%D0%B0-2022-1.docx"
+        },
+        {
+          "title": "ПЛАН ПОЈАЧАНОГ ВАСПИТНОГ РАДА",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2023/06/%D0%9F%D0%9B%D0%90%D0%9D-%D0%9F%D0%9E%D0%88%D0%90%D0%A7%D0%90%D0%9D%D0%9E%D0%93-%D0%92%D0%90%D0%A1%D0%9F%D0%98%D0%A2%D0%9D%D0%9E%D0%93-%D0%A0%D0%90%D0%94%D0%90.docx"
+        },
+        {
+          "title": "ОБРАЗАЦ ОБАВЉАЊА АКТИВНОСТИ ДРУШТВЕНО",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2023/06/%D0%9E%D0%91%D0%A0%D0%90%D0%97%D0%90%D0%A6-%D0%9E%D0%91%D0%90%D0%92%D0%89%D0%90%D0%8A%D0%90-%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%98-%D0%94%D0%A0%D0%A3%D0%A8%D0%A2%D0%92%D0%95%D0%9D%D0%9E.docx"
+        },
+        {
+          "title": "Измене-статута-2019-године",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5-%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%82%D0%B0-2019-%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B5.pdf"
+        },
+        {
+          "title": "Измене-статута-2020-године",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5-%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%82%D0%B0-2020-%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B5.pdf"
+        },
+        {
+          "title": "Статут-школе",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%82-%D1%88%D0%BA%D0%BE%D0%BB%D0%B5.pdf"
+        },
+        {
+          "title": "Годишњи-план-2023-2024",
+          "url": "http://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%93%D0%BE%D0%B4%D0%B8%D1%88%D1%9A%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2023-2024.docx"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "О школи",
+      "source": "https://medicinskapancevo.edu.rs/o-skoli/",
+      "modified": "2026-01-03T17:25:11",
+      "path": "/o-skoli/",
+      "links": [
+        {
+          "title": "MEДИЦИНСКА ШКОЛА „СТЕВИЦА ЈОВАНОВИЋ“ПАНЧЕВО",
+          "url": "https://medicinskapancevo.edu.rs/wp-content/uploads/2026/01/MEDICINSKA-SKOLA.pptx"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/07/EVALUACIONI-LIST-ZA-NASTAVNIKE.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/07/EVALUACIONI-LIST-ZA-NASTAVNIKE.pdf",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "ЕВАЛУАЦИОНИ ЛИСТ ЗА НАСТАВНИКЕ"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-009aea75857efd01.pdf",
+      "filename": "document-009aea75857efd01.pdf",
+      "bytes": 427021,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/DOKUMENT-O-VREDNOVANJU-STALNOG-STRUCNOG-USAVRSAVANJA_-MEDICINSKA-SKOLA_PANCEVO.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/DOKUMENT-O-VREDNOVANJU-STALNOG-STRUCNOG-USAVRSAVANJA_-MEDICINSKA-SKOLA_PANCEVO.pdf",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "ДОКУМЕНТ О ВРЕДНОВАЊУ СТАЛНОГ СТРУЧНОГ УСАВРШАВАЊА"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-243a9f68e969d28d.pdf",
+      "filename": "document-243a9f68e969d28d.pdf",
+      "bytes": 331433,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/I-RAZRED-ZDRAVSTVENA-NEGA-I.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/I-RAZRED-ZDRAVSTVENA-NEGA-I.doc",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "I RAZRED-ZDRAVSTVENA NEGA I"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-1a412ae0d937f599.doc",
+      "filename": "document-1a412ae0d937f599.doc",
+      "bytes": 44032,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-BIOLOGIJA.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-BIOLOGIJA.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "II RAZRED-BIOLOGIJA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-744a9fe5011d6843.docx",
+      "filename": "document-744a9fe5011d6843.docx",
+      "bytes": 15885,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-FIZIKA.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-FIZIKA.doc",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "II RAZRED-FIZIKA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-95f4a991001e3cf5.doc",
+      "filename": "document-95f4a991001e3cf5.doc",
+      "bytes": 26624,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-MEDICINSKA-ETIKA.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-MEDICINSKA-ETIKA.doc",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "II RAZRED-MEDICINSKA ETIKA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-488c7edf671723f9.doc",
+      "filename": "document-488c7edf671723f9.doc",
+      "bytes": 32256,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-PRED%C5%A0KOLSKA-PEDAGOGIJA.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-PRED%C5%A0KOLSKA-PEDAGOGIJA.doc",
+      "groups": [
+        {
+          "id": 1480,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "linkTitle": "II RAZRED-PREDŠKOLSKA PEDAGOGIJA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-c8d2d2cc71fd56ef.doc",
+      "filename": "document-c8d2d2cc71fd56ef.doc",
+      "bytes": 30208,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-ZDR.NEGA-II-TEORIJA.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-ZDR.NEGA-II-TEORIJA.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "II RAZRED-ZDR.NEGA II TEORIJA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-bb57399a041d3b18.docx",
+      "filename": "document-bb57399a041d3b18.docx",
+      "bytes": 16104,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-ZDR.NEGA-II.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/II-RAZRED-ZDR.NEGA-II.doc",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "II RAZRED-ZDR.NEGA II"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-90c83bc973914c61.doc",
+      "filename": "document-90c83bc973914c61.doc",
+      "bytes": 45568,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-DE%C4%8CIJA-PSIHOLOGIJA.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-DE%C4%8CIJA-PSIHOLOGIJA.doc",
+      "groups": [
+        {
+          "id": 1480,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "linkTitle": "III RAZRED-DEČIJA PSIHOLOGIJA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-d6c1bdadb3b1e879.doc",
+      "filename": "document-d6c1bdadb3b1e879.doc",
+      "bytes": 32768,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-KNJI%C5%BDEVNOST-ZA-DECU.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-KNJI%C5%BDEVNOST-ZA-DECU.docx",
+      "groups": [
+        {
+          "id": 1480,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "linkTitle": "III RAZRED-KNJIŽEVNOST ZA DECU"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-df8feb27ca3be36e.docx",
+      "filename": "document-df8feb27ca3be36e.docx",
+      "bytes": 14945,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-KULTURA-TELA.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-KULTURA-TELA.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "III RAZRED-KULTURA TELA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-71831107da863d3c.docx",
+      "filename": "document-71831107da863d3c.docx",
+      "bytes": 15105,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-VASPITANJE-I-NEGA-DECEteorija.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-VASPITANJE-I-NEGA-DECEteorija.doc",
+      "groups": [
+        {
+          "id": 1480,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "linkTitle": "III RAZRED-VASPITANJE I NEGA DECE(teorija)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-f5bc989b453d386a.doc",
+      "filename": "document-f5bc989b453d386a.doc",
+      "bytes": 28672,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-VASPITANJE-I-NEGA-DECEve%C5%BEbe.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-VASPITANJE-I-NEGA-DECEve%C5%BEbe.doc",
+      "groups": [
+        {
+          "id": 1480,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "linkTitle": "III RAZRED-VASPITANJE I NEGA DECE(vežbe)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-db6becdeed1b17a2.doc",
+      "filename": "document-db6becdeed1b17a2.doc",
+      "bytes": 25088,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZD.NEGA-U-HIRURGIJIve%C5%BEbe.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZD.NEGA-U-HIRURGIJIve%C5%BEbe.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "III RAZRED-ZD.NEGA U HIRURGIJI(vežbe)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-2d75396bdca37f86.docx",
+      "filename": "document-2d75396bdca37f86.docx",
+      "bytes": 15001,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZDR.-NEGA-III-TEORIJA.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZDR.-NEGA-III-TEORIJA.doc",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "III RAZRED-ZDR. NEGA III TEORIJA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-2b616b1777cdbf94.doc",
+      "filename": "document-2b616b1777cdbf94.doc",
+      "bytes": 31232,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZDR.NEGA-U-INFEKTOLOGIJIve%C5%BEbe.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZDR.NEGA-U-INFEKTOLOGIJIve%C5%BEbe.doc",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "III RAZRED-ZDR.NEGA U INFEKTOLOGIJI(vežbe)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-683d495a09d7444e.doc",
+      "filename": "document-683d495a09d7444e.doc",
+      "bytes": 26112,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZDR.NEGA-U-INTERNOJ-MEDICINIve%C5%BEbe.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/08/III-RAZRED-ZDR.NEGA-U-INTERNOJ-MEDICINIve%C5%BEbe.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "III RAZRED-ZDR.NEGA U INTERNOJ MEDICINI(vežbe)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-3de1c8100ba86c49.docx",
+      "filename": "document-3de1c8100ba86c49.docx",
+      "bytes": 14849,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2016/09/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA-%D1%83%D1%9F%D0%B1%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0-2016-2017.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2016/09/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA-%D1%83%D1%9F%D0%B1%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0-2016-2017.docx",
+      "groups": [
+        {
+          "id": 54,
+          "title": "Уџбеници",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/udzbenici/",
+          "path": "/ucenici/udzbenici/",
+          "linkTitle": "spisak-udzbenika-2016-2017"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-8951d562387fd00c.docx",
+      "filename": "document-8951d562387fd00c.docx",
+      "bytes": 29578,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/03/Dramamed.pptx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/03/Dramamed.pptx",
+      "groups": [
+        {
+          "id": 2237,
+          "title": "Драмска секција",
+          "source": "https://medicinskapancevo.edu.rs/dramska-sekcija/",
+          "path": "/dramska-sekcija/",
+          "linkTitle": "Dramamed"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-23420eacdceb02bc.pptx",
+      "filename": "document-23420eacdceb02bc.pptx",
+      "bytes": 3274063,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/03/IV-RAZRED-ZDRAVSTVENA-NEGA.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/03/IV-RAZRED-ZDRAVSTVENA-NEGA.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "IV RAZRED-ZDRAVSTVENA NEGA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-9b400e9685bf5812.docx",
+      "filename": "document-9b400e9685bf5812.docx",
+      "bytes": 18313,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/06/NEKI-PROBLEMI-BIOETIKE_ZBORNIK-UCENICKIH-RADOVA.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/06/NEKI-PROBLEMI-BIOETIKE_ZBORNIK-UCENICKIH-RADOVA.pdf",
+      "groups": [
+        {
+          "id": 2616,
+          "title": "Радови ученика",
+          "source": "https://medicinskapancevo.edu.rs/radovi-ucenika/",
+          "path": "/radovi-ucenika/",
+          "linkTitle": "NEKI PROBLEMI BIOETIKE_ZBORNIK UCENICKIH RADOVA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-6a98e09463ea8379.pdf",
+      "filename": "document-6a98e09463ea8379.pdf",
+      "bytes": 880611,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-ANATOMIJA.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-ANATOMIJA.doc",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "I RAZRED-ANATOMIJA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-2d2fe9aa5d7c3626.doc",
+      "filename": "document-2d2fe9aa5d7c3626.doc",
+      "bytes": 35840,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-GEOGRAFIJA.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-GEOGRAFIJA.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "I RAZRED-GEOGRAFIJA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-80d49e49cd74aa07.docx",
+      "filename": "document-80d49e49cd74aa07.docx",
+      "bytes": 16502,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-ISTORIJA.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-ISTORIJA.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "I RAZRED-ISTORIJA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-4ae604f6f230a259.docx",
+      "filename": "document-4ae604f6f230a259.docx",
+      "bytes": 15337,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-LATINSKI-JEZIK.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-LATINSKI-JEZIK.doc",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "I RAZRED-LATINSKI JEZIK"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-0c6bcc097d22fc6e.doc",
+      "filename": "document-0c6bcc097d22fc6e.doc",
+      "bytes": 29184,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-PRVA-POMOC.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/I-RAZRED-PRVA-POMOC.doc",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "I RAZRED-PRVA POMOC"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-a8458fd0011e684c.doc",
+      "filename": "document-a8458fd0011e684c.doc",
+      "bytes": 29696,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/II-RAZRED-ZDR.-PSIHOLOGIJA.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/II-RAZRED-ZDR.-PSIHOLOGIJA.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "II RAZRED-ZDR. PSIHOLOGIJA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-6c027a6901d3fbe0.docx",
+      "filename": "document-6c027a6901d3fbe0.docx",
+      "bytes": 18365,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-GINEKOLOGIJAve%C5%BEbe.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-GINEKOLOGIJAve%C5%BEbe.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "III RAZRED-GINEKOLOGIJA(vežbe)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-4eea17aec29fe874.docx",
+      "filename": "document-4eea17aec29fe874.docx",
+      "bytes": 15222,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-NEUROLOGIJAve%C5%BEbe.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-NEUROLOGIJAve%C5%BEbe.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "III RAZRED-NEUROLOGIJA(vežbe)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-735bad9647306018.docx",
+      "filename": "document-735bad9647306018.docx",
+      "bytes": 17506,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-PEDIJATRIJA-SA-NEGOMteorija.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-PEDIJATRIJA-SA-NEGOMteorija.doc",
+      "groups": [
+        {
+          "id": 1480,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "linkTitle": "III RAZRED-PEDIJATRIJA SA NEGOM(teorija)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-d0748af6ed72cc58.doc",
+      "filename": "document-d0748af6ed72cc58.doc",
+      "bytes": 27648,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-PEDIJATRIJA-SA-NEGOMve%C5%BEbe.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-PEDIJATRIJA-SA-NEGOMve%C5%BEbe.docx",
+      "groups": [
+        {
+          "id": 1480,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "linkTitle": "III RAZRED-PEDIJATRIJA SA NEGOM(vežbe)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-554a5998f936f55d.docx",
+      "filename": "document-554a5998f936f55d.docx",
+      "bytes": 19035,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-SOCIOLOGIJA-I-PRAVA-GRA%C4%90ANA.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/III-RAZRED-SOCIOLOGIJA-I-PRAVA-GRA%C4%90ANA.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "III RAZRED-SOCIOLOGIJA I PRAVA GRAĐANA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-1c101e9fa73a0977.docx",
+      "filename": "document-1c101e9fa73a0977.docx",
+      "bytes": 16207,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-PEDIJATRIJA-SA-NEGOM-teorija.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-PEDIJATRIJA-SA-NEGOM-teorija.docx",
+      "groups": [
+        {
+          "id": 1480,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "linkTitle": "IV RAZRED-PEDIJATRIJA SA NEGOM (teorija)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-6518924401e7f3d8.docx",
+      "filename": "document-6518924401e7f3d8.docx",
+      "bytes": 14612,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-PEDIJATRIJA-SA-NEGOMve%C5%BEbe.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-PEDIJATRIJA-SA-NEGOMve%C5%BEbe.doc",
+      "groups": [
+        {
+          "id": 1480,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "linkTitle": "IV RAZRED-PEDIJATRIJA SA NEGOM(vežbe)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-07197d458e2f2715.doc",
+      "filename": "document-07197d458e2f2715.doc",
+      "bytes": 26624,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-PREDUZETNI%C5%A0TVO.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-PREDUZETNI%C5%A0TVO.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "IV RAZRED-PREDUZETNIŠTVO"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-d78663a485c9abaf.docx",
+      "filename": "document-d78663a485c9abaf.docx",
+      "bytes": 15008,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-VASPITANJE-I-NEGA-DECEve%C5%BEbe.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/IV-RAZRED-VASPITANJE-I-NEGA-DECEve%C5%BEbe.doc",
+      "groups": [
+        {
+          "id": 1480,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "linkTitle": "IV RAZRED-VASPITANJE I NEGA DECE(vežbe)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-5e9625f4b54e6d68.doc",
+      "filename": "document-5e9625f4b54e6d68.doc",
+      "bytes": 26112,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/PSIHOLOGIJA.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2017/11/PSIHOLOGIJA.doc",
+      "groups": [
+        {
+          "id": 1480,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-vaspitac/",
+          "linkTitle": "PSIHOLOGIJA"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-4d978a72ef04770d.doc",
+      "filename": "document-4d978a72ef04770d.doc",
+      "bytes": 29184,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%92%D0%B0%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D1%9A%D0%B5-%D0%B8-%D0%BD%D0%B5%D0%B3%D0%B0-%D0%B4%D0%B5%D1%86%D0%B5-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%92%D0%B0%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D1%9A%D0%B5-%D0%B8-%D0%BD%D0%B5%D0%B3%D0%B0-%D0%B4%D0%B5%D1%86%D0%B5-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0.docx",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "МСВ Васпитање и нега деце-теорија"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-13bcc8cfaf5a7cb1.docx",
+      "filename": "document-13bcc8cfaf5a7cb1.docx",
+      "bytes": 19818,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%94%D0%B5%D1%87%D1%98%D0%B0-%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%94%D0%B5%D1%87%D1%98%D0%B0-%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.docx",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "МСВ Дечја психологија"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-81c5d75f8a718d48.docx",
+      "filename": "document-81c5d75f8a718d48.docx",
+      "bytes": 41718,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%95%D0%BD%D0%B3%D0%BB%D0%B5%D1%81%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%95%D0%BD%D0%B3%D0%BB%D0%B5%D1%81%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA.doc",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "МСВ Енглески језик"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-ea29f4395c736457.doc",
+      "filename": "document-ea29f4395c736457.doc",
+      "bytes": 26624,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9D%D0%B5%D0%BC%D0%B0%D1%87%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA-%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9D%D0%B5%D0%BC%D0%B0%D1%87%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA-%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "МСВ Немачки језик-граматика"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-8a33d723b6b82484.pdf",
+      "filename": "document-8a33d723b6b82484.pdf",
+      "bytes": 119052,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9D%D0%B5%D0%BC%D0%B0%D1%87%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9D%D0%B5%D0%BC%D0%B0%D1%87%D0%BA%D0%B8-%D1%98%D0%B5%D0%B7%D0%B8%D0%BA.docx",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "МСВ Немачки језик"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-056c94918ccf5468.docx",
+      "filename": "document-056c94918ccf5468.docx",
+      "bytes": 29703,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D0%B5%D0%B4%D0%B8%D1%98%D0%B0%D1%82%D1%80%D0%B8%D1%98%D0%B0-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D0%B5%D0%B4%D0%B8%D1%98%D0%B0%D1%82%D1%80%D0%B8%D1%98%D0%B0-%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0.doc",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "МСВ Педијатрија-теорија"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-bbecc25c1d248126.doc",
+      "filename": "document-bbecc25c1d248126.doc",
+      "bytes": 32256,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D1%80%D0%B5%D0%B4%D1%88%D0%BA%D0%BE%D0%BB%D1%81%D0%BA%D0%B0-%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D1%80%D0%B5%D0%B4%D1%88%D0%BA%D0%BE%D0%BB%D1%81%D0%BA%D0%B0-%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.doc",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "МСВ Предшколска педагогија"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-c8d2d2cc71fd56ef.doc",
+      "filename": "document-c8d2d2cc71fd56ef.doc",
+      "bytes": 30208,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0.doc",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "МСВ Психологија"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-d69d3fb41144d757.doc",
+      "filename": "document-d69d3fb41144d757.doc",
+      "bytes": 34304,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%A4%D0%B8%D0%BB%D0%BE%D0%B7%D0%BE%D1%84%D0%B8%D1%98%D0%B0.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/%D0%9C%D0%A1%D0%92-%D0%A4%D0%B8%D0%BB%D0%BE%D0%B7%D0%BE%D1%84%D0%B8%D1%98%D0%B0.pdf",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "МСВ Филозофија"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-ca792901c0fe3e9a.pdf",
+      "filename": "document-ca792901c0fe3e9a.pdf",
+      "bytes": 562594,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/M%D0%A1%D0%92-M%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/01/M%D0%A1%D0%92-M%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.docx",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "MСВ Mатематика"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-ea97bbc294607e12.docx",
+      "filename": "document-ea97bbc294607e12.docx",
+      "bytes": 32460,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/02/%D0%9C%D0%A1%D0%92-%D0%9B%D0%B8%D0%BA%D0%BE%D0%B2%D0%BD%D0%B0-%D0%BA%D1%83%D0%BB%D1%82%D1%83%D1%80%D0%B0.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/02/%D0%9C%D0%A1%D0%92-%D0%9B%D0%B8%D0%BA%D0%BE%D0%B2%D0%BD%D0%B0-%D0%BA%D1%83%D0%BB%D1%82%D1%83%D1%80%D0%B0.docx",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "МСВ-Ликовна култура"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-763a9eb592bb93d8.docx",
+      "filename": "document-763a9eb592bb93d8.docx",
+      "bytes": 17239,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/02/%D0%9C%D0%A1%D0%92-%D0%9C%D1%83%D0%B7%D0%B8%D1%87%D0%BA%D0%B0-%D0%BA%D1%83%D0%BB%D1%82%D1%83%D1%80%D0%B0.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/02/%D0%9C%D0%A1%D0%92-%D0%9C%D1%83%D0%B7%D0%B8%D1%87%D0%BA%D0%B0-%D0%BA%D1%83%D0%BB%D1%82%D1%83%D1%80%D0%B0.doc",
+      "groups": [
+        {
+          "id": 2968,
+          "title": "Медицинска сестра-васпитач",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-vaspitac/",
+          "path": "/medicinska-sestra-vaspitac/",
+          "linkTitle": "МСВ-Музичка култура"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-88bbdc635756962b.doc",
+      "filename": "document-88bbdc635756962b.doc",
+      "bytes": 26624,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2018/03/IV-RAZRED-PEDIJATRIJAteorija-1.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2018/03/IV-RAZRED-PEDIJATRIJAteorija-1.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "IV-RAZRED-PEDIJATRIJA(teorija)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-277b1a136ae06f37.docx",
+      "filename": "document-277b1a136ae06f37.docx",
+      "bytes": 19583,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2019/01/Medicinska-sestra-tehni%C4%8Dar-priru%C4%8Dnik.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2019/01/Medicinska-sestra-tehni%C4%8Dar-priru%C4%8Dnik.pdf",
+      "groups": [
+        {
+          "id": 2965,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/medicinska-sestra-tehnicar/",
+          "path": "/medicinska-sestra-tehnicar/",
+          "linkTitle": "Медицинска сестра-техничар приручник"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-72fdb7a4d87b586f.pdf",
+      "filename": "document-72fdb7a4d87b586f.pdf",
+      "bytes": 1717296,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2019/03/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2018.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2019/03/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2018.pdf",
+      "groups": [
+        {
+          "id": 3498,
+          "title": "Јавне набавке и финансијски извештаји",
+          "source": "https://medicinskapancevo.edu.rs/javne-nabavke-2/",
+          "path": "/javne-nabavke-2/",
+          "linkTitle": "Завршни рачун 2018"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-ed28c23c4ed6dd0e.pdf",
+      "filename": "document-ed28c23c4ed6dd0e.pdf",
+      "bytes": 17868370,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2019/09/%D0%9F%D0%A0%D0%90%D0%92%D0%98%D0%9B%D0%9D%D0%98%D0%9A-%D0%9E-%D0%9E%D0%A6%D0%95%D0%8A%D0%98%D0%92%D0%90%D0%8A%D0%A3.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2019/09/%D0%9F%D0%A0%D0%90%D0%92%D0%98%D0%9B%D0%9D%D0%98%D0%9A-%D0%9E-%D0%9E%D0%A6%D0%95%D0%8A%D0%98%D0%92%D0%90%D0%8A%D0%A3.pdf",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "ПРАВИЛНИК О ОЦЕЊИВАЊУ"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-6d6477a83d227f0f.pdf",
+      "filename": "document-6d6477a83d227f0f.pdf",
+      "bytes": 345045,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2019/10/visina-skolarine-vanredni-ucenici-2018-19.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2019/10/visina-skolarine-vanredni-ucenici-2018-19.pdf",
+      "groups": [
+        {
+          "id": 2683,
+          "title": "Ванредно школовање",
+          "source": "https://medicinskapancevo.edu.rs/vanredno-skolovanje/",
+          "path": "/vanredno-skolovanje/",
+          "linkTitle": "Висина школарине – ванредни ученици"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-b52b843a3a916799.pdf",
+      "filename": "document-b52b843a3a916799.pdf",
+      "bytes": 1614074,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2019/11/%D0%9F%D1%83%D0%BB%D1%81-%D0%91%D0%A0%D0%9E%D0%88-1.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2019/11/%D0%9F%D1%83%D0%BB%D1%81-%D0%91%D0%A0%D0%9E%D0%88-1.pdf",
+      "groups": [
+        {
+          "id": 1507,
+          "title": "Школски часопис",
+          "source": "https://medicinskapancevo.edu.rs/plan-kontrolnih-i-pismenih-vezbi/",
+          "path": "/plan-kontrolnih-i-pismenih-vezbi/",
+          "linkTitle": "Пулс-БРОЈ 1"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-a84451e4cabd770f.pdf",
+      "filename": "document-a84451e4cabd770f.pdf",
+      "bytes": 2713984,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2020/01/%D0%93%D0%90%D0%A1-%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2020/01/%D0%93%D0%90%D0%A1-%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf",
+      "groups": [
+        {
+          "id": 2971,
+          "title": "Гинеколошко-акушерска сестра",
+          "source": "https://medicinskapancevo.edu.rs/ginekolosko-akuserska-sestra/",
+          "path": "/ginekolosko-akuserska-sestra/",
+          "linkTitle": "ГАС-Математика"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-54966900b2b44333.pdf",
+      "filename": "document-54966900b2b44333.pdf",
+      "bytes": 473961,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2020/02/%D0%9A%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%98%D0%B0-%D0%BC%D0%B0%D1%82%D1%83%D1%80%D1%81%D0%BA%D0%B0%D0%B5%D0%BA%D1%81%D0%BA%D1%83%D1%80%D0%B7%D0%B8%D1%98%D0%B0-2020-2021.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2020/02/%D0%9A%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%98%D0%B0-%D0%BC%D0%B0%D1%82%D1%83%D1%80%D1%81%D0%BA%D0%B0%D0%B5%D0%BA%D1%81%D0%BA%D1%83%D1%80%D0%B7%D0%B8%D1%98%D0%B0-2020-2021.docx",
+      "groups": [
+        {
+          "id": 3498,
+          "title": "Јавне набавке и финансијски извештаји",
+          "source": "https://medicinskapancevo.edu.rs/javne-nabavke-2/",
+          "path": "/javne-nabavke-2/",
+          "linkTitle": "Конкурсна документација матурска екскурзија 2020-2021"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-596d0a1d7d97560e.docx",
+      "filename": "document-596d0a1d7d97560e.docx",
+      "bytes": 118857,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2020/02/%D0%9F%D0%BE%D0%B7%D0%B8%D0%B2-%D0%B7%D0%B0-%D0%BF%D0%BE%D0%B4%D0%BD%D0%BE%D1%88%D0%B5%D1%9A%D0%B5-%D0%BF%D0%BE%D0%BD%D1%83%D0%B4%D0%B5-%D0%BC%D0%B0%D1%82%D1%83%D1%80%D1%81%D0%BA%D0%B0-%D0%B5%D0%BA%D1%81%D0%BA%D1%83%D1%80%D0%B7%D0%B8%D1%98%D0%B0-2020-2021.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2020/02/%D0%9F%D0%BE%D0%B7%D0%B8%D0%B2-%D0%B7%D0%B0-%D0%BF%D0%BE%D0%B4%D0%BD%D0%BE%D1%88%D0%B5%D1%9A%D0%B5-%D0%BF%D0%BE%D0%BD%D1%83%D0%B4%D0%B5-%D0%BC%D0%B0%D1%82%D1%83%D1%80%D1%81%D0%BA%D0%B0-%D0%B5%D0%BA%D1%81%D0%BA%D1%83%D1%80%D0%B7%D0%B8%D1%98%D0%B0-2020-2021.pdf",
+      "groups": [
+        {
+          "id": 3498,
+          "title": "Јавне набавке и финансијски извештаји",
+          "source": "https://medicinskapancevo.edu.rs/javne-nabavke-2/",
+          "path": "/javne-nabavke-2/",
+          "linkTitle": "Позив за подношење понуде матурска екскурзија 2020-2021"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-e9abee9071b9af10.pdf",
+      "filename": "document-e9abee9071b9af10.pdf",
+      "bytes": 445053,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2020/03/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2019.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2020/03/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2019.pdf",
+      "groups": [
+        {
+          "id": 3498,
+          "title": "Јавне набавке и финансијски извештаји",
+          "source": "https://medicinskapancevo.edu.rs/javne-nabavke-2/",
+          "path": "/javne-nabavke-2/",
+          "linkTitle": "Завршни рачун 2019"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-2d2149360b7213c6.pdf",
+      "filename": "document-2d2149360b7213c6.pdf",
+      "bytes": 1434692,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2021/02/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2020.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2021/02/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2020.pdf",
+      "groups": [
+        {
+          "id": 3498,
+          "title": "Јавне набавке и финансијски извештаји",
+          "source": "https://medicinskapancevo.edu.rs/javne-nabavke-2/",
+          "path": "/javne-nabavke-2/",
+          "linkTitle": "Завршни рачун 2020"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-09b6295c5a00afad.pdf",
+      "filename": "document-09b6295c5a00afad.pdf",
+      "bytes": 3274546,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2021/02/%D0%9F%D0%BE%D0%B7%D0%B8%D0%B2-%D0%B7%D0%B0-%D0%BF%D0%BE%D0%BD%D1%83%D0%B4%D1%83-%D0%B7%D0%B0-%D0%BD%D0%B0%D0%B1%D0%B0%D0%B2%D0%BA%D1%83-%D1%81%D1%82%D1%80%D1%83%D1%98%D0%B5-2021.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2021/02/%D0%9F%D0%BE%D0%B7%D0%B8%D0%B2-%D0%B7%D0%B0-%D0%BF%D0%BE%D0%BD%D1%83%D0%B4%D1%83-%D0%B7%D0%B0-%D0%BD%D0%B0%D0%B1%D0%B0%D0%B2%D0%BA%D1%83-%D1%81%D1%82%D1%80%D1%83%D1%98%D0%B5-2021.doc",
+      "groups": [
+        {
+          "id": 3498,
+          "title": "Јавне набавке и финансијски извештаји",
+          "source": "https://medicinskapancevo.edu.rs/javne-nabavke-2/",
+          "path": "/javne-nabavke-2/",
+          "linkTitle": "Позив за понуду за набавку струје 2021"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-ed935394eb19c017.doc",
+      "filename": "document-ed935394eb19c017.doc",
+      "bytes": 306176,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2021/03/%D0%A4%D1%83%D0%BA-%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BD%D0%B8%D0%BA.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2021/03/%D0%A4%D1%83%D0%BA-%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BD%D0%B8%D0%BA.docx",
+      "groups": [
+        {
+          "id": 3498,
+          "title": "Јавне набавке и финансијски извештаји",
+          "source": "https://medicinskapancevo.edu.rs/javne-nabavke-2/",
+          "path": "/javne-nabavke-2/",
+          "linkTitle": "Фук-Правилник"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-c714e6317761a5a1.docx",
+      "filename": "document-c714e6317761a5a1.docx",
+      "bytes": 34050,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2022/02/IV-RAZRED-PEDIJATRIJAvezbe.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2022/02/IV-RAZRED-PEDIJATRIJAvezbe.docx",
+      "groups": [
+        {
+          "id": 1477,
+          "title": "Медицинска сестра-техничар",
+          "source": "https://medicinskapancevo.edu.rs/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "path": "/ucenici/ispitna-pitanja/medicinska-sestra-tehnicar/",
+          "linkTitle": "IV RAZRED-PEDIJATRIJA(vežbe)"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-eff87d71ce5997a9.docx",
+      "filename": "document-eff87d71ce5997a9.docx",
+      "bytes": 14033,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2022/11/%D0%93%D0%BE%D0%B4%D0%B8%D1%88%D1%9A%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-%D1%80%D0%B0%D0%B4%D0%B0-2022-1.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2022/11/%D0%93%D0%BE%D0%B4%D0%B8%D1%88%D1%9A%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-%D1%80%D0%B0%D0%B4%D0%B0-2022-1.docx",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "Годишњи-план-рада-2022-2023"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-4b9a311e8c30e1d0.docx",
+      "filename": "document-4b9a311e8c30e1d0.docx",
+      "bytes": 583226,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2022/11/%D0%A0%D0%B0%D0%B7%D0%B2%D0%BE%D1%98%D0%BD%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2021-2025.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2022/11/%D0%A0%D0%B0%D0%B7%D0%B2%D0%BE%D1%98%D0%BD%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2021-2025.doc",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "Развојни план-2021-2025"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-157ee854b345b802.doc",
+      "filename": "document-157ee854b345b802.doc",
+      "bytes": 333312,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2022/11/%D0%A1%D0%98%D0%A1%D0%A2%D0%95%D0%9C%D0%90%D0%A2%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%88%D0%90-%D0%A1%D0%90-%D0%91%D0%A0%D0%9E%D0%88%D0%95%D0%9C-%D0%98%D0%97%D0%92%D0%A0%D0%A8%D0%98%D0%9B%D0%90%D0%A6%D0%90-%D0%BD%D0%B0%D1%98%D0%BD%D0%BE%D0%B2%D0%B8%D1%98%D0%B5.doc",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2022/11/%D0%A1%D0%98%D0%A1%D0%A2%D0%95%D0%9C%D0%90%D0%A2%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%88%D0%90-%D0%A1%D0%90-%D0%91%D0%A0%D0%9E%D0%88%D0%95%D0%9C-%D0%98%D0%97%D0%92%D0%A0%D0%A8%D0%98%D0%9B%D0%90%D0%A6%D0%90-%D0%BD%D0%B0%D1%98%D0%BD%D0%BE%D0%B2%D0%B8%D1%98%D0%B5.doc",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "СИСТЕМАТИЗАЦИЈА-СА-БРОЈЕМ-ИЗВРШИЛАЦА"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-a0cfa6533d7ae5b5.doc",
+      "filename": "document-a0cfa6533d7ae5b5.doc",
+      "bytes": 479744,
+      "signature": "ole"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2023/06/%D0%9E%D0%91%D0%A0%D0%90%D0%97%D0%90%D0%A6-%D0%9E%D0%91%D0%90%D0%92%D0%89%D0%90%D0%8A%D0%90-%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%98-%D0%94%D0%A0%D0%A3%D0%A8%D0%A2%D0%92%D0%95%D0%9D%D0%9E.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2023/06/%D0%9E%D0%91%D0%A0%D0%90%D0%97%D0%90%D0%A6-%D0%9E%D0%91%D0%90%D0%92%D0%89%D0%90%D0%8A%D0%90-%D0%90%D0%9A%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%A1%D0%A2%D0%98-%D0%94%D0%A0%D0%A3%D0%A8%D0%A2%D0%92%D0%95%D0%9D%D0%9E.docx",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "ОБРАЗАЦ ОБАВЉАЊА АКТИВНОСТИ ДРУШТВЕНО"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-71a5961b3aebad5d.docx",
+      "filename": "document-71a5961b3aebad5d.docx",
+      "bytes": 17632,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2023/06/%D0%9F%D0%9B%D0%90%D0%9D-%D0%9F%D0%9E%D0%88%D0%90%D0%A7%D0%90%D0%9D%D0%9E%D0%93-%D0%92%D0%90%D0%A1%D0%9F%D0%98%D0%A2%D0%9D%D0%9E%D0%93-%D0%A0%D0%90%D0%94%D0%90.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2023/06/%D0%9F%D0%9B%D0%90%D0%9D-%D0%9F%D0%9E%D0%88%D0%90%D0%A7%D0%90%D0%9D%D0%9E%D0%93-%D0%92%D0%90%D0%A1%D0%9F%D0%98%D0%A2%D0%9D%D0%9E%D0%93-%D0%A0%D0%90%D0%94%D0%90.docx",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "ПЛАН ПОЈАЧАНОГ ВАСПИТНОГ РАДА"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-6f1799a7858bd44e.docx",
+      "filename": "document-6f1799a7858bd44e.docx",
+      "bytes": 28259,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%93%D0%BE%D0%B4%D0%B8%D1%88%D1%9A%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2023-2024.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%93%D0%BE%D0%B4%D0%B8%D1%88%D1%9A%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2023-2024.docx",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "Годишњи-план-2023-2024"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-84cab11046e8c54c.docx",
+      "filename": "document-84cab11046e8c54c.docx",
+      "bytes": 404842,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5-%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%82%D0%B0-2019-%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B5.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5-%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%82%D0%B0-2019-%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B5.pdf",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "Измене-статута-2019-године"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-3c713d8fdfe31628.pdf",
+      "filename": "document-3c713d8fdfe31628.pdf",
+      "bytes": 1123466,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5-%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%82%D0%B0-2020-%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B5.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5-%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%82%D0%B0-2020-%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B5.pdf",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "Измене-статута-2020-године"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-803027a32a63b9e1.pdf",
+      "filename": "document-803027a32a63b9e1.pdf",
+      "bytes": 620640,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%82-%D1%88%D0%BA%D0%BE%D0%BB%D0%B5.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/04/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%82-%D1%88%D0%BA%D0%BE%D0%BB%D0%B5.pdf",
+      "groups": [
+        {
+          "id": 48,
+          "title": "Документи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/dokumenti/",
+          "path": "/o-skoli/dokumenti/",
+          "linkTitle": "Статут-школе"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-1509c6ac2464bbd3.pdf",
+      "filename": "document-1509c6ac2464bbd3.pdf",
+      "bytes": 22346129,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/05/%D0%9F%D1%80%D0%B8%D1%80%D1%83%D1%87%D0%BD%D0%B8%D0%BA-%D0%B7%D0%B0-%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D1%99%D0%B5.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/05/%D0%9F%D1%80%D0%B8%D1%80%D1%83%D1%87%D0%BD%D0%B8%D0%BA-%D0%B7%D0%B0-%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D1%99%D0%B5.pdf",
+      "groups": [
+        {
+          "id": 1379,
+          "title": "Кутак за родитеље",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/kutak-za-roditelje/",
+          "path": "/o-skoli/kutak-za-roditelje/",
+          "linkTitle": "Приручник-за-родитеље"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-7e86e00283bae1d3.pdf",
+      "filename": "document-7e86e00283bae1d3.pdf",
+      "bytes": 12619667,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/09/%D0%9A%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D1%98%D1%83%D0%BC-%D0%BE%D1%86%D0%B5%D1%9A%D0%B8%D0%B2%D0%B0%D1%9A%D0%B0-%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9D%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82-%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/09/%D0%9A%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D1%98%D1%83%D0%BC-%D0%BE%D1%86%D0%B5%D1%9A%D0%B8%D0%B2%D0%B0%D1%9A%D0%B0-%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0-%D0%9D%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82-%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0.pdf",
+      "groups": [
+        {
+          "id": 6314,
+          "title": "Документација",
+          "source": "https://medicinskapancevo.edu.rs/dokumentacija/",
+          "path": "/dokumentacija/",
+          "linkTitle": "Критеријум-оцењивања-ученика-Наставни-предмет-Математика"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-0fdb624524b96b21.pdf",
+      "filename": "document-0fdb624524b96b21.pdf",
+      "bytes": 385490,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/09/%D0%9A%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D1%98%D1%83%D0%BC%D0%B8-%D0%B7%D0%B0-%D0%BE%D1%86%D0%B5%D1%9A%D0%B8%D0%B2%D0%B0%D1%9A%D0%B5-%D0%B7%D0%B0-%D0%B2%D0%B5%D1%9B%D0%B5-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D1%85-%D0%BD%D0%B0%D1%83%D0%BA%D0%B0.docx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/09/%D0%9A%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D1%98%D1%83%D0%BC%D0%B8-%D0%B7%D0%B0-%D0%BE%D1%86%D0%B5%D1%9A%D0%B8%D0%B2%D0%B0%D1%9A%D0%B5-%D0%B7%D0%B0-%D0%B2%D0%B5%D1%9B%D0%B5-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D1%85-%D0%BD%D0%B0%D1%83%D0%BA%D0%B0.docx",
+      "groups": [
+        {
+          "id": 6314,
+          "title": "Документација",
+          "source": "https://medicinskapancevo.edu.rs/dokumentacija/",
+          "path": "/dokumentacija/",
+          "linkTitle": "Критеријуми-за-оцењивање-за-веће-природних-наука"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-605a2b5497ec7c4a.docx",
+      "filename": "document-605a2b5497ec7c4a.docx",
+      "bytes": 57524,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/09/%D0%9F%D1%80%D0%B8%D1%80%D1%83%D1%87%D0%BD%D0%B8%D0%BA-%D0%B7%D0%B0-%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D1%99%D0%B5.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/09/%D0%9F%D1%80%D0%B8%D1%80%D1%83%D1%87%D0%BD%D0%B8%D0%BA-%D0%B7%D0%B0-%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D1%99%D0%B5.pdf",
+      "groups": [
+        {
+          "id": 6314,
+          "title": "Документација",
+          "source": "https://medicinskapancevo.edu.rs/dokumentacija/",
+          "path": "/dokumentacija/",
+          "linkTitle": "Приручник-за-родитеље"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-7e86e00283bae1d3.pdf",
+      "filename": "document-7e86e00283bae1d3.pdf",
+      "bytes": 12619667,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/12/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%BF%D0%BE%D0%BD%D0%B0%D1%88%D0%B0%D1%9A%D0%B0-%D1%83-%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D1%98-%D1%88%D0%BA%D0%BE%D0%BB%D0%B8-%D0%BE%D0%B4-13.09.2024..pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2024/12/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0-%D0%BF%D0%BE%D0%BD%D0%B0%D1%88%D0%B0%D1%9A%D0%B0-%D1%83-%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D1%98-%D1%88%D0%BA%D0%BE%D0%BB%D0%B8-%D0%BE%D0%B4-13.09.2024..pdf",
+      "groups": [
+        {
+          "id": 6314,
+          "title": "Документација",
+          "source": "https://medicinskapancevo.edu.rs/dokumentacija/",
+          "path": "/dokumentacija/",
+          "linkTitle": "Правила-понашања-у-Медицинској-школи-од-13.09.2024."
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-3d102f24f268ff97.pdf",
+      "filename": "document-3d102f24f268ff97.pdf",
+      "bytes": 5995706,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2025/02/%D0%93%D0%BE%D0%B4%D0%B8%D1%88%D1%9A%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2024-2025.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2025/02/%D0%93%D0%BE%D0%B4%D0%B8%D1%88%D1%9A%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2024-2025.pdf",
+      "groups": [
+        {
+          "id": 6314,
+          "title": "Документација",
+          "source": "https://medicinskapancevo.edu.rs/dokumentacija/",
+          "path": "/dokumentacija/",
+          "linkTitle": "Годишњи-план-2024-2025"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-f9dc2e0a3f895595.pdf",
+      "filename": "document-f9dc2e0a3f895595.pdf",
+      "bytes": 3077747,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2025/02/%D0%A8%D0%BA%D0%BE%D0%BB%D1%81%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2025/02/%D0%A8%D0%BA%D0%BE%D0%BB%D1%81%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC.pdf",
+      "groups": [
+        {
+          "id": 6314,
+          "title": "Документација",
+          "source": "https://medicinskapancevo.edu.rs/dokumentacija/",
+          "path": "/dokumentacija/",
+          "linkTitle": "Школски-програм"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-74f2ad58cc95042f.pdf",
+      "filename": "document-74f2ad58cc95042f.pdf",
+      "bytes": 14406562,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2026/01/MEDICINSKA-SKOLA.pptx",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2026/01/MEDICINSKA-SKOLA.pptx",
+      "groups": [
+        {
+          "id": 6,
+          "title": "О школи",
+          "source": "https://medicinskapancevo.edu.rs/o-skoli/",
+          "path": "/o-skoli/",
+          "linkTitle": "MEДИЦИНСКА ШКОЛА „СТЕВИЦА ЈОВАНОВИЋ“ПАНЧЕВО"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-659a0ff44ced5512.pptx",
+      "filename": "document-659a0ff44ced5512.pptx",
+      "bytes": 5586541,
+      "signature": "zip"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2026/06/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2025.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2026/06/%D0%97%D0%B0%D0%B2%D1%80%D1%88%D0%BD%D0%B8-%D1%80%D0%B0%D1%87%D1%83%D0%BD-2025.pdf",
+      "groups": [
+        {
+          "id": 3498,
+          "title": "Јавне набавке и финансијски извештаји",
+          "source": "https://medicinskapancevo.edu.rs/javne-nabavke-2/",
+          "path": "/javne-nabavke-2/",
+          "linkTitle": "Завршни-рачун-2025"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-b55dcd3a7ccaa3ed.pdf",
+      "filename": "document-b55dcd3a7ccaa3ed.pdf",
+      "bytes": 533270,
+      "signature": "pdf"
+    },
+    {
+      "originalUrl": "http://medicinskapancevo.edu.rs/wp-content/uploads/2026/06/%D0%A4%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%B8%D1%98%D1%81%D0%BA%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2026-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B0-%D0%BC%D0%B0%D1%98.pdf",
+      "normalizedUrl": "https://medicinskapancevo.edu.rs/wp-content/uploads/2026/06/%D0%A4%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%B8%D1%98%D1%81%D0%BA%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-2026-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B0-%D0%BC%D0%B0%D1%98.pdf",
+      "groups": [
+        {
+          "id": 3498,
+          "title": "Јавне набавке и финансијски извештаји",
+          "source": "https://medicinskapancevo.edu.rs/javne-nabavke-2/",
+          "path": "/javne-nabavke-2/",
+          "linkTitle": "Финансијски-план-2026-измена-мај"
+        }
+      ],
+      "status": "available",
+      "httpStatus": 200,
+      "localPath": "/skolski-materijali/document-a5a7af4e19be2754.pdf",
+      "filename": "document-a5a7af4e19be2754.pdf",
+      "bytes": 1261227,
+      "signature": "pdf"
+    }
+  ],
+  "assetSummary": {
+    "distinctDocuments": 83,
+    "available": 81,
+    "unavailable": 2,
+    "groups": 15,
+    "profiles": 4,
+    "exams": 4
+  }
+}

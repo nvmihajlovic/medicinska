@@ -1,0 +1,48 @@
+export const informationText = {
+  en: {
+    section: "Information", title: "Information", description: "Timetables, exams, school documents and useful information in one place.",
+    overview: "Quick overview", need: "What do you need?", choose: "Choose an area and open the information you need.",
+    groups: [
+      { title: "Teaching and timetables", description: "Information about the organisation of the school day.", links: ["Bell schedule", "Written assessment schedule", "Teacher duty schedule"] },
+      { title: "Exams and materials", description: "Exam preparation materials and school documents.", links: ["Exam questions", "Final exam questions", "School documents"] },
+      { title: "For parents", description: "Contact with the school and available documents.", links: ["Parent handbook (in Serbian)", "Contact the school"] },
+    ],
+    current: "For current information, please contact the school.",
+    pages: {
+      "raspored-zvonjenja": { title: "Bell schedule", description: "Lesson times for the morning and afternoon shifts." },
+      "plan-pismenih-provera": { title: "Written assessment schedule", description: "Information about the written assessment schedule." },
+      "dezurstva-nastavnika": { title: "Teacher duty schedule", description: "The teacher duty schedule." },
+    },
+    lessons: "Lesson schedule", shifts: ["Morning shift", "Afternoon shift"], lesson: "Lesson",
+    bellNote: "The schedule was last updated in 2017. Please contact the school for the current schedule.",
+    assessmentNote: "The written assessment schedule is currently unavailable. Please contact the school for current information.",
+    dutyArchive: "Schedule archive", dutyTitle: "Teacher duties", dutyWeeks: "Working weeks 1 and 2 · 2026/2027 school year",
+    validity: "Period of validity", period: "1–11 September 2026", dutyNote: "This schedule applies to the stated period. Please contact the school for the current schedule.",
+    scroll: "On smaller screens, scroll the table to see all days.", tableLabel: "Teacher duty table", caption: "Duty schedule from 1 to 11 September 2026",
+    days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], documentDate: "Document date: 31 August 2026",
+    original: "Open original document (in Serbian)", back: "Information for students and parents",
+  },
+  de: {
+    section: "Informationen", title: "Informationen", description: "Stundenzeiten, Prüfungen, Schuldokumente und nützliche Informationen an einem Ort.",
+    overview: "Auf einen Blick", need: "Was benötigen Sie?", choose: "Wählen Sie einen Bereich und öffnen Sie die gewünschte Information.",
+    groups: [
+      { title: "Unterricht und Zeitpläne", description: "Informationen zur Organisation des Schultags.", links: ["Klingelzeiten", "Plan der schriftlichen Prüfungen", "Aufsichtsplan der Lehrkräfte"] },
+      { title: "Prüfungen und Materialien", description: "Materialien zur Prüfungsvorbereitung und Schuldokumente.", links: ["Prüfungsfragen", "Abschlussprüfungsfragen", "Schuldokumente"] },
+      { title: "Für Eltern", description: "Kontakt zur Schule und verfügbare Dokumente.", links: ["Elternhandbuch (auf Serbisch)", "Kontakt zur Schule"] },
+    ],
+    current: "Für aktuelle Informationen wenden Sie sich bitte an die Schule.",
+    pages: {
+      "raspored-zvonjenja": { title: "Klingelzeiten", description: "Unterrichtszeiten der Vormittags- und Nachmittagsschicht." },
+      "plan-pismenih-provera": { title: "Plan der schriftlichen Prüfungen", description: "Informationen zum Plan der schriftlichen Prüfungen." },
+      "dezurstva-nastavnika": { title: "Aufsichtsplan der Lehrkräfte", description: "Der Aufsichtsplan der Lehrkräfte." },
+    },
+    lessons: "Unterrichtszeiten", shifts: ["Vormittagsschicht", "Nachmittagsschicht"], lesson: "Stunde",
+    bellNote: "Der Plan wurde zuletzt 2017 aktualisiert. Für den aktuellen Plan wenden Sie sich bitte an die Schule.",
+    assessmentNote: "Der Plan der schriftlichen Prüfungen ist derzeit nicht verfügbar. Für aktuelle Informationen wenden Sie sich bitte an die Schule.",
+    dutyArchive: "Archiv der Zeitpläne", dutyTitle: "Aufsicht der Lehrkräfte", dutyWeeks: "Arbeitswochen 1 und 2 · Schuljahr 2026/2027",
+    validity: "Gültigkeitszeitraum", period: "1.–11. September 2026", dutyNote: "Dieser Plan gilt für den angegebenen Zeitraum. Für den aktuellen Plan wenden Sie sich bitte an die Schule.",
+    scroll: "Auf kleineren Bildschirmen können Sie die Tabelle verschieben, um alle Tage zu sehen.", tableLabel: "Aufsichtstabelle der Lehrkräfte", caption: "Aufsichtsplan vom 1. bis 11. September 2026",
+    days: ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag"], documentDate: "Dokumentdatum: 31. August 2026",
+    original: "Originaldokument öffnen (auf Serbisch)", back: "Informationen für Schülerinnen, Schüler und Eltern",
+  },
+} as const;

@@ -1,69 +1,31 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { connection } from "next/server";
+import { HealthCalendar } from "@/components/health-calendar";
+import { HomeHero } from "@/components/home-hero";
+import { HomeSections } from "@/components/home-sections";
+import { SiteFooter, SiteHeader } from "@/components/site-chrome";
+import { getNews, HOME_NEWS_LIMIT, pageNumber } from "@/lib/news";
+import { withNewsViews } from "@/lib/news-engagement";
+import { belgradeDate } from "@/lib/health-calendar";
+import { preferredLanguage } from "@/lib/language-preference";
+import "./news.css";
 
-export default function Home() {
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>
-            To get started, edit the{" "}
-            <code className={styles.code}>page.tsx</code> file.
-          </h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+export default async function Home({ searchParams }: { searchParams: Promise<{ vesti?: string | string[] }> }) {
+  await connection();
+  const showArchive = await preferredLanguage() === "sr";
+  const recent = await getNews(HOME_NEWS_LIMIT);
+  const pages = Math.ceil(recent.length / 6);
+  const currentPage = pageNumber((await searchParams).vesti, pages);
+  const latest = await withNewsViews(recent.slice((currentPage - 1) * 6, currentPage * 6));
+
+  return <>
+    <SiteHeader />
+    <main id="main" className="home">
+      <div className="hero-area">
+        <HomeHero locale="sr" />
+        <HealthCalendar initialDate={belgradeDate(new Date())} />
+      </div>
+      <HomeSections locale="sr" latest={latest} currentPage={currentPage} pages={pages} showArchive={showArchive} />
+    </main>
+    <SiteFooter />
+  </>;
 }
