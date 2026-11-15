@@ -146,7 +146,7 @@ export const aboutText = {
       ["Healthcare caregiver", "The school joined the CARDS programme to introduce the pilot healthcare caregiver programme."],
     ],
     training: "Teaching and practice", learning: "Learning at school and in healthcare institutions",
-    practice: "Teaching includes theory, exercises in school classrooms and practical training at partner institutions, including the General Hospital and Health Centre in Pančevo.",
+    practice: "Teaching combines theory and exercises in school skills labs with professional practice in hospital wards and other healthcare settings, including the General Hospital and Health Centre in Pančevo.",
     programmes: "Study programmes", discover: "Discover the school", links: ["Staff", "School teams", "Contact"],
   },
   de: {
@@ -166,7 +166,7 @@ export const aboutText = {
       ["Gesundheitspflege", "Die Schule beteiligte sich am CARDS-Programm zur Einführung eines Modellprofils für Pflegekräfte."],
     ],
     training: "Unterricht und Praxis", learning: "Lernen in der Schule und in Gesundheitseinrichtungen",
-    practice: "Der Unterricht umfasst Theorie, Übungen in den Fachräumen und praktische Ausbildung an Partnerinstitutionen, darunter das Allgemeine Krankenhaus und das Gesundheitszentrum in Pančevo.",
+    practice: "Der Unterricht verbindet Theorie und Übungen in schulischen Fachräumen mit der beruflichen Praxis auf Krankenhausstationen und in weiteren Gesundheitseinrichtungen, darunter das Allgemeine Krankenhaus und das Gesundheitszentrum in Pančevo.",
     programmes: "Bildungsprofile", discover: "Die Schule kennenlernen", links: ["Mitarbeitende", "Schulteams", "Kontakt"],
   },
 } as const;

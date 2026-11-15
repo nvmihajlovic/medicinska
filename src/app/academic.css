@@ -26,6 +26,7 @@
   width: 100%;
   height: clamp(300px, 32vw, 420px);
   object-fit: cover;
+  object-position: center top;
 }
 
 .academic-profile__intro p:not(.eyebrow) {

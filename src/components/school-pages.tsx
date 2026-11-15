@@ -35,8 +35,8 @@ export const programs = [
     opportunities: "Знања стечена на профилу могу бити основа за рад у здравственим установама, попут болница и домова здравља, као и за наставак образовања у области здравства.",
     suitable: "Профил може одговарати онима које занимају медицина и рад са људима, који су спремни да уче, сарађују и приступају другима са стрпљењем и поштовањем.",
     exam: "Матурски испит обухвата српски језик, тест знања и практичне радне задатке из здравствене неге.",
-    image: "/images/praktikum-5.jpg",
-    alt: "Ученица на вежбама здравствене неге",
+    image: "/images/getty-images-Qz8F6d3pzEw-unsplash.jpg",
+    alt: "Здравствени радници мере крвни притисак пацијенту",
   },
   {
     id: "ginekolosko-akuserska-sestra",
@@ -56,8 +56,8 @@ export const programs = [
     opportunities: "Образовање може бити основа за рад у установама које пружају гинеколошку и акушерску здравствену заштиту, као и за даље школовање у области здравства.",
     suitable: "Профил може одговарати онима које занимају здравље жене и новорођенчета и који желе да развијају стрпљење, одговорност и осећај за потребе других.",
     exam: "Практични део матурског испита обухвата гинекологију, акушерство и здравствену негу.",
-    image: "/images/praktikum-18.jpg",
-    alt: "Вежбе неге новорођенчета",
+    image: "/images/wesley-tingey-qT68mycMSG4-unsplash.jpg",
+    alt: "Новорођенче и здравствени радници у болници",
   },
   {
     id: "medicinska-sestra-vaspitac",
@@ -77,8 +77,8 @@ export const programs = [
     opportunities: "Профил пружа основу за рад са децом раног узраста у предшколским установама и за даље образовање у сродним областима.",
     suitable: "Профил може одговарати онима који воле рад са децом, имају стрпљења и креативности и занима их повезаност здравља, игре и развоја детета.",
     exam: "Практични део матурског испита укључује васпитање и негу деце и педијатрију са негом.",
-    image: "/images/praktikum-20.jpg",
-    alt: "Практична настава у школском кабинету",
+    image: "/images/baby-educator.jpg",
+    alt: "Беба седи на поду и игра се дрвеном играчком",
   },
   {
     id: "zdravstveni-negovatelj",
@@ -241,7 +241,7 @@ export function AboutSchool({ locale = "sr" }: { locale?: Locale }) {
         <div className="shell school-profile__learning-grid">
           <LanguageBlock locale={locale}>{(language) => <><p className="eyebrow">{language === "sr" ? "Настава и пракса" : aboutText[language].training}</p><h2>{language === "sr" ? "Учење у школи и здравственим установама" : aboutText[language].learning}</h2></>}</LanguageBlock>
           <LanguageBlock locale={locale}>{(language) => <>
-            <p>{language === "sr" ? "Настава обухвата теоријски рад, вежбе у кабинетима и практичне вежбе у наставним базама. Међу њима су Општа болница и Дом здравља у Панчеву." : aboutText[language].practice}</p>
+            <p>{language === "sr" ? "Настава повезује теоријски рад са вежбама у школским кабинетима и стручном праксом у болничким одељењима и другим здравственим установама, као што су Општа болница и Дом здравља у Панчеву." : aboutText[language].practice}</p>
             {language === locale ? <Link href={locale === "sr" ? "/obrazovni-profili" : `/${locale}/obrazovni-profili`} className="school-page-link school-page-link--light">{language === "sr" ? "Образовни профили" : aboutText[language].programmes} <span aria-hidden="true">→</span></Link> : <a className="school-page-link school-page-link--light">{language === "sr" ? "Образовни профили" : aboutText[language].programmes} <span aria-hidden="true">→</span></a>}
           </>}</LanguageBlock>
         </div>
