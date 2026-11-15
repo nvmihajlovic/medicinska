@@ -4,7 +4,6 @@ import { HomeHero } from "@/components/home-hero";
 import { HomeSections } from "@/components/home-sections";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { belgradeDate } from "@/lib/health-calendar";
-import { chromeText } from "@/lib/localization";
 import { getNews, HOME_NEWS_LIMIT, pageNumber } from "@/lib/news";
 import { withNewsViews } from "@/lib/news-engagement";
 import "@/app/news.css";
@@ -19,7 +18,6 @@ export async function TranslatedHome({ locale, searchParams }: { locale: "en" | 
   return <div lang={locale}>
     <SiteHeader locale={locale} />
     <main id="main" className="home">
-      <p className="translation-notice">{chromeText[locale].unavailable}</p>
       <div className="hero-area">
         <HomeHero locale={locale} />
         <HealthCalendar locale={locale} initialDate={belgradeDate(new Date())} />

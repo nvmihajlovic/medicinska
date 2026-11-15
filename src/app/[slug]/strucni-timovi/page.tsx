@@ -22,7 +22,6 @@ export default async function TranslatedTeamsPage({ params }: Props) {
     <div lang={slug}>
       <SiteHeader locale={slug} />
       <main id="main">
-        <p className="translation-notice">{chromeText[slug].unavailable}</p>
         <Teams locale={slug} />
       </main>
       <SiteFooter locale={slug} />

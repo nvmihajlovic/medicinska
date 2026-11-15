@@ -22,7 +22,6 @@ export default async function TranslatedAboutPage({ params }: Props) {
     <div lang={slug}>
       <SiteHeader locale={slug} />
       <main id="main">
-        <p className="translation-notice">{chromeText[slug].unavailable}</p>
         <AboutSchool locale={slug} />
       </main>
       <SiteFooter locale={slug} />

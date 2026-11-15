@@ -49,7 +49,7 @@ export const chromeText = {
     footerIntro: "Средња стручна школа у Панчеву, посвећена медицинском образовању од 1959. године.",
     footerTitles: ["Школа", "За ученике", "Будимо у контакту"],
     footerLinks: ["О школи", "Запослени", "Стручни тимови", "Erasmus+ пројекти", "Образовни профили", "Информације", "Испити и материјали", "Документација", "Контакт и локација", "Архива вести", "Услови коришћења", "Политика приватности", "Политика колачића"],
-    language: "Језик", unavailable: "Превод сајта је у току; неке странице су доступне само на српском.",
+    language: "Језик",
   },
   en: {
     skip: "Skip to content", school: "Medical School", city: "Pančevo", hours: "Opening hours: 07:00–19:15",
@@ -58,7 +58,7 @@ export const chromeText = {
     footerIntro: "A secondary vocational school in Pančevo, dedicated to medical education since 1959.",
     footerTitles: ["School", "For students", "Contact"],
     footerLinks: ["About the school", "Staff", "School teams", "Erasmus+ projects", "Study programmes", "Information", "Exams and materials", "Documents", "Contact and location", "News archive", "Terms of use", "Privacy policy", "Cookie policy"],
-    language: "Language", unavailable: "Translation is in progress; some pages are currently available only in Serbian.",
+    language: "Language",
   },
   de: {
     skip: "Zum Inhalt springen", school: "Medizinische Schule", city: "Pančevo", hours: "Öffnungszeiten: 07:00–19:15",
@@ -67,12 +67,12 @@ export const chromeText = {
     footerIntro: "Eine berufsbildende Schule in Pančevo, die seit 1959 medizinische Bildung vermittelt.",
     footerTitles: ["Schule", "Für Schülerinnen und Schüler", "Kontakt"],
     footerLinks: ["Über die Schule", "Mitarbeitende", "Schulteams", "Erasmus+-Projekte", "Bildungsprofile", "Informationen", "Prüfungen und Materialien", "Dokumente", "Kontakt und Standort", "Nachrichtenarchiv", "Nutzungsbedingungen", "Datenschutz", "Cookie-Richtlinie"],
-    language: "Sprache", unavailable: "Die Übersetzung ist in Arbeit; einige Seiten sind derzeit nur auf Serbisch verfügbar.",
+    language: "Sprache",
   },
 } satisfies Record<Locale, {
   skip: string; school: string; city: string; hours: string; schoolInfo: string;
   navigation: string; mobileNavigation: string; menu: string; nav: string[];
-  footerIntro: string; footerTitles: string[]; footerLinks: string[]; language: string; unavailable: string;
+  footerIntro: string; footerTitles: string[]; footerLinks: string[]; language: string;
 }>;
 
 export const teamsText = {

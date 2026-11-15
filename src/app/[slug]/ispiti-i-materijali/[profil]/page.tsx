@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { TranslatedExamPage } from "@/components/translated-exams";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { examPrograms, examText } from "@/lib/exam-text";
-import { chromeText } from "@/lib/localization";
 
 type Props = { params: Promise<{ slug: string; profil: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -15,6 +14,6 @@ export default async function Page({ params }: Props) {
   const { slug, profil } = await params;
   if ((slug !== "en" && slug !== "de") || !Object.prototype.hasOwnProperty.call(examPrograms, profil)) notFound();
   return <div lang={slug}><SiteHeader locale={slug} /><main id="main">
-    <p className="translation-notice">{chromeText[slug].unavailable}</p><TranslatedExamPage locale={slug} profil={profil} />
+    <TranslatedExamPage locale={slug} profil={profil} />
   </main><SiteFooter locale={slug} /></div>;
 }
