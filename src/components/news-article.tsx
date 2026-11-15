@@ -15,6 +15,7 @@ import { newsIllustration } from "@/lib/news-illustration";
 import { isNewsCategory, type NewsCategory } from "@/lib/news-categories";
 import type { Locale } from "@/lib/localization";
 import { getSupabaseConfig } from "@/lib/supabase/config";
+import { shareImage } from "@/lib/share-image";
 import { createClient } from "@/lib/supabase/server";
 import "@/app/news.css";
 
@@ -31,23 +32,28 @@ export async function newsMetadata(slug: string, locale: Locale): Promise<Metada
     const translation = locale === "sr" ? null : newsTranslation(imported, locale);
     const title = translation?.title ?? imported.title;
     const excerpt = translation?.excerpt ?? imported.excerpt;
+    const image = shareImage(imported.image?.src, imported.image?.alt || title);
     return {
       title,
       description: excerpt || undefined,
-      openGraph: { type: "article", title, description: excerpt || undefined, publishedTime: imported.date },
+      openGraph: { type: "article", title, description: excerpt || undefined, publishedTime: imported.date, images: [image] },
+      twitter: { card: "summary_large_image", title, description: excerpt || undefined, images: [image] },
     };
   }
   if (!getSupabaseConfig()) return {};
   await connection();
   const supabase = await createClient();
-  const { data, error } = await supabase.from("content_entries").select("title, excerpt, published_at")
+  const { data, error } = await supabase.from("content_entries").select("title, excerpt, published_at, media_path")
     .eq("kind", "news").eq("status", "published").eq("slug", slug).maybeSingle();
   if (error) throw new Error("Подаци за дељење вести нису могли да се учитају.");
   if (!data) return {};
+  const mediaUrl = data.media_path ? supabase.storage.from("school-media").getPublicUrl(data.media_path).data.publicUrl : null;
+  const image = shareImage(mediaUrl, data.title);
   return {
     title: data.title,
     description: data.excerpt || undefined,
-    openGraph: { type: "article", title: data.title, description: data.excerpt || undefined, publishedTime: data.published_at ?? undefined },
+    openGraph: { type: "article", title: data.title, description: data.excerpt || undefined, publishedTime: data.published_at ?? undefined, images: [image] },
+    twitter: { card: "summary_large_image", title: data.title, description: data.excerpt || undefined, images: [image] },
   };
 }
 
