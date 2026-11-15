@@ -12,6 +12,12 @@ const labels = {
   de: { label: "Interaktion mit der Nachricht", consent: "Für die Zähler ist Ihre Einwilligung erforderlich.", views: "Aufrufe", loading: "Aufrufe werden geladen…", countersError: "Aufruf- und „Gefällt mir“-Zähler sind derzeit nicht verfügbar.", likeError: "Ihre „Gefällt mir“-Angabe konnte nicht gespeichert werden. Bitte versuchen Sie es erneut.", liked: "Gefällt Ihnen", like: "Gefällt mir", share: "Nachricht teilen", copied: "Link kopiert.", shareError: "Das Teilen ist fehlgeschlagen. Kopieren Sie die Adresse aus dem Browser.", note: "Ein Cookie in diesem Browser speichert „Gefällt mir“-Angaben und zählt Aufrufe.", settings: "Cookie-Einstellungen", noScript: "Für „Gefällt mir“ und das Teilen ist JavaScript erforderlich." },
 } as const;
 
+const shareLabels = {
+  sr: { link: "Линк за дељење", copy: "Копирај линк", native: "Подели преко уређаја" },
+  en: { link: "Link to share", copy: "Copy link", native: "Share using your device" },
+  de: { link: "Link zum Teilen", copy: "Link kopieren", native: "Über das Gerät teilen" },
+} as const;
+
 async function requestMetrics(slug: string, action?: "view" | "like", signal?: AbortSignal): Promise<Metrics> {
   const response = await fetch(`/api/news/${encodeURIComponent(slug)}`, action ? {
     method: "POST",
@@ -42,6 +48,8 @@ export function NewsEngagement({ slug, title, locale = "sr" }: { slug: string; t
   const [error, setError] = useState("");
   const [pending, setPending] = useState(false);
   const [shareMessage, setShareMessage] = useState("");
+  const [shareUrl, setShareUrl] = useState("");
+  const [nativeShareAvailable, setNativeShareAvailable] = useState(false);
   const consent = useCookieConsent();
   const allowed = consent?.analytics === true;
   const likeRequest = useRef<AbortController | null>(null);
@@ -72,16 +80,26 @@ export function NewsEngagement({ slug, title, locale = "sr" }: { slug: string; t
     }
   }
 
-  async function share() {
+  function showShareOptions() {
+    setShareMessage("");
+    setShareUrl(`${window.location.origin}${locale === "sr" ? "" : `/${locale}`}/vesti/${encodeURIComponent(slug)}`);
+    setNativeShareAvailable(typeof navigator.share === "function");
+  }
+
+  async function copyLink() {
     setShareMessage("");
     try {
-      const url = `${window.location.origin}${locale === "sr" ? "" : `/${locale}`}/vesti/${encodeURIComponent(slug)}`;
-      if (navigator.share) {
-        await navigator.share({ title, url });
-      } else {
-        await navigator.clipboard.writeText(url);
-        setShareMessage(text.copied);
-      }
+      await navigator.clipboard.writeText(shareUrl);
+      setShareMessage(text.copied);
+    } catch {
+      setShareMessage(text.shareError);
+    }
+  }
+
+  async function shareOnDevice() {
+    setShareMessage("");
+    try {
+      await navigator.share({ title, url: shareUrl });
     } catch (error) {
       if (error instanceof DOMException && error.name === "AbortError") return;
       setShareMessage(text.shareError);
@@ -99,9 +117,15 @@ export function NewsEngagement({ slug, title, locale = "sr" }: { slug: string; t
         <button type="button" onClick={toggleLike} disabled={!allowed || !metrics || pending} aria-pressed={allowed && (metrics?.liked ?? false)}>
           <span aria-hidden="true">{allowed && metrics?.liked ? "♥" : "♡"}</span> <LanguageText locale={locale} values={values(allowed && metrics?.liked ? "liked" : "like")} /> {allowed && metrics && <span className="news-engagement__like-count">{metrics.likes.toLocaleString(numberLocale)}</span>}
         </button>
-        <button type="button" onClick={share}><span aria-hidden="true">↗</span> <LanguageText locale={locale} values={values("share")} /></button>
+        <button type="button" onClick={showShareOptions} aria-expanded={Boolean(shareUrl)} aria-controls="news-share-options"><span aria-hidden="true">↗</span> <LanguageText locale={locale} values={values("share")} /></button>
       </div>
       {allowed && error && metrics && <p className="news-engagement__status" role="alert">{error}</p>}
+      {shareUrl && <div id="news-share-options" className="news-engagement__share">
+        <label htmlFor="news-share-link">{shareLabels[locale].link}</label>
+        <input id="news-share-link" type="text" readOnly value={shareUrl} onFocus={(event) => event.currentTarget.select()} />
+        <button type="button" onClick={copyLink}>{shareLabels[locale].copy}</button>
+        {nativeShareAvailable && <button type="button" onClick={shareOnDevice}>{shareLabels[locale].native}</button>}
+      </div>}
       {shareMessage && <p className="news-engagement__status" role="status">{shareMessage}</p>}
       <p className="news-engagement__note"><LanguageInline locale={locale}>{(language) => <>{labels[language].note} {language === locale ? <button type="button" className="cookie-settings-link" onClick={openCookieSettings}>{labels[language].settings}</button> : <button type="button" className="cookie-settings-link" disabled>{labels[language].settings}</button>}</>}</LanguageInline></p>
       <noscript>{text.noScript}</noscript>

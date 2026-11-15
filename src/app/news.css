@@ -14,7 +14,7 @@
 .school-news-card__body p { display: -webkit-box; overflow: hidden; margin: 0 0 var(--space-paragraph); color: var(--muted); font-size: var(--type-small); line-height: var(--line-copy); -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
 .school-news-card__footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 16px; border-top: 1px solid var(--line); }
 .school-news-card__link { display: inline-flex; align-items: center; gap: 5px; min-height: 32px; color: var(--blue); font-size: 13px; font-weight: 700; }
-.school-news-card__views { color: var(--muted); font-size: 12px; }
+.school-news-card__counts { display: flex; flex-wrap: wrap; gap: 4px 12px; color: var(--muted); font-size: 12px; }
 .news-section__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; align-items: center; margin-top: 30px; }
 .school-news-archive-link { color: var(--blue); font-size: 13px; font-weight: 700; }
 .school-news-archive-link:hover { color: var(--red); }
@@ -91,6 +91,10 @@
 .news-engagement__actions button:disabled { color: var(--muted); cursor: not-allowed; opacity: .7; }
 .news-engagement__actions button:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
 .news-engagement__status { margin: 12px 0 0; color: var(--muted); font-size: 12px; }
+.news-engagement__share { display: grid; gap: 8px; margin-top: 12px; font-size: 12px; }
+.news-engagement__share input { width: 100%; min-width: 0; padding: 8px; border: 1px solid #bdcdd7; color: var(--blue-deep); background: white; font: inherit; }
+.news-engagement__share button { min-height: 40px; padding: 8px 12px; border: 1px solid #bdcdd7; background: white; color: var(--blue-deep); font: inherit; font-weight: 700; cursor: pointer; }
+.news-engagement__share button:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
 .news-engagement__note { margin: 16px 0 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
 .school-news-article__related { padding: 22px 24px; border: 1px solid var(--line); }
 .school-news-article__related a { display: flex; justify-content: space-between; gap: 12px; padding: 12px 0; border-top: 1px solid var(--line); color: var(--blue); font-size: 12px; font-weight: 700; }

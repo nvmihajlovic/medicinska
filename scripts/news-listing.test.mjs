@@ -1,7 +1,10 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { createRequire } from "node:module";
 import test from "node:test";
 import vm from "node:vm";
+import React from "react";
+import { renderToStaticMarkup } from "react-dom/server";
 import ts from "typescript";
 
 const source = readFileSync(new URL("../src/lib/news.ts", import.meta.url), "utf8");
@@ -81,4 +84,60 @@ test("publishing a newer story moves the oldest homepage story into the archive"
   assert.equal(recent[0].href, "/vesti/new-story");
   assert.equal(archiveEntries[0].href, previous[previous.length - 1].href);
   assert.ok(!recent.some((entry) => entry.href === archiveEntries[0].href));
+});
+
+test("listing counts include likes, default missing rows to zero, and retain unavailable counts on errors", async () => {
+  const source = readFileSync(new URL("../src/lib/news-engagement.ts", import.meta.url), "utf8");
+  const compiled = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText;
+  const entries = [
+    { engagementKey: "archive-1", views: null, likes: null },
+    { engagementKey: "entry-2", views: null, likes: null },
+  ];
+
+  async function loadCounts(result, configured = true) {
+    let columns;
+    const client = { from: () => ({ select(value) { columns = value; return this; }, in: async () => result }) };
+    const modules = {
+      "@supabase/supabase-js": { createClient: () => client },
+      "@/lib/supabase/config": { getSupabaseConfig: () => configured ? { url: "https://example.test" } : null },
+      "@/lib/news": {},
+    };
+    const testModule = { exports: {} };
+    vm.runInNewContext(compiled, {
+      module: testModule, exports: testModule.exports, require: (id) => modules[id],
+      process: { env: { SUPABASE_SERVICE_ROLE_KEY: "test-key" } }, console: { error() {} },
+    });
+    const output = await testModule.exports.withNewsViews(entries);
+    return { output, columns };
+  }
+
+  const { output, columns } = await loadCounts({ data: [{ news_key: "archive-1", views: 7, likes: 3 }], error: null });
+  assert.equal(columns, "news_key, views, likes");
+  assert.equal(output[0].views, 7);
+  assert.equal(output[0].likes, 3);
+  assert.equal(output[1].views, 0);
+  assert.equal(output[1].likes, 0);
+  assert.equal((await loadCounts({ data: null, error: new Error("offline") })).output[0].likes, null);
+  assert.equal((await loadCounts(null, false)).output[0].likes, null);
+});
+
+test("news previews display likes and report unavailable counts without inventing zero", () => {
+  const source = readFileSync(new URL("../src/components/news-list.tsx", import.meta.url), "utf8");
+  const compiled = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true } }).outputText;
+  const realRequire = createRequire(import.meta.url);
+  const modules = {
+    "next/link": { __esModule: true, default: ({ children }) => children },
+    "next/image": { __esModule: true, default: () => null },
+    "@/lib/news": { importedArticle: () => undefined, newsDate: () => "" },
+    "@/lib/news-categories": { newsCategories: [], newsCategoryLabel: () => "Вести" },
+    "@/lib/news-illustration": { newsIllustration: () => "" },
+    "@/lib/news-translations": { newsTranslation: () => null },
+  };
+  const testModule = { exports: {} };
+  vm.runInNewContext(compiled, { module: testModule, exports: testModule.exports, require: (id) => modules[id] ?? realRequire(id), Intl });
+  const item = { title: "Вест", excerpt: "", date: null, href: "/vesti/objava-1", image: null, category: "obavestenja", engagementKey: "archive-1", views: 7, likes: 3 };
+  const render = (values) => renderToStaticMarkup(React.createElement(testModule.exports.NewsCard, { item: { ...item, ...values } }));
+  assert.match(render({}), /3 лајкова/);
+  assert.match(render({ likes: 0 }), /0 лајкова/);
+  assert.match(render({ likes: null }), /Лајкови нису доступни/);
 });

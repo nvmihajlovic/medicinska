@@ -16,6 +16,7 @@ export type NewsItem = {
   category: NewsCategory;
   engagementKey: string;
   views: number | null;
+  likes: number | null;
 };
 
 const categoriesById: Record<string, string> = importedCategories;
@@ -45,6 +46,7 @@ export async function getNews(limit?: number): Promise<NewsItem[]> {
     category: importedNewsCategory(entry.id),
     engagementKey: `archive-${entry.id}`,
     views: null,
+    likes: null,
   }));
   if (getSupabaseConfig()) {
     await connection();
@@ -69,6 +71,7 @@ export async function getNews(limit?: number): Promise<NewsItem[]> {
       category: entry.category,
       engagementKey: `entry-${entry.id}`,
       views: null,
+      likes: null,
     };
     }));
   }

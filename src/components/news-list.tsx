@@ -7,8 +7,8 @@ import { newsTranslation } from "@/lib/news-translations";
 import type { Locale } from "@/lib/localization";
 
 const labels = {
-  en: { categories: ["Announcements", "Teaching and exams", "Competitions and achievements", "Projects and cooperation", "Humanitarian activities", "School life"], read: "Read news", views: "views", unavailable: "Views unavailable", pages: "News pages", previous: "Previous page", next: "Next page" },
-  de: { categories: ["Bekanntmachungen", "Unterricht und Prüfungen", "Wettbewerbe und Erfolge", "Projekte und Zusammenarbeit", "Humanitäre Aktionen", "Schulleben"], read: "Nachricht lesen", views: "Aufrufe", unavailable: "Aufrufe nicht verfügbar", pages: "Nachrichtenseiten", previous: "Vorherige Seite", next: "Nächste Seite" },
+  en: { categories: ["Announcements", "Teaching and exams", "Competitions and achievements", "Projects and cooperation", "Humanitarian activities", "School life"], read: "Read news", views: "views", unavailable: "Views unavailable", likes: "likes", likesUnavailable: "Likes unavailable", pages: "News pages", previous: "Previous page", next: "Next page" },
+  de: { categories: ["Bekanntmachungen", "Unterricht und Prüfungen", "Wettbewerbe und Erfolge", "Projekte und Zusammenarbeit", "Humanitäre Aktionen", "Schulleben"], read: "Nachricht lesen", views: "Aufrufe", unavailable: "Aufrufe nicht verfügbar", likes: "Gefällt mir", likesUnavailable: "Gefällt-mir-Angaben nicht verfügbar", pages: "Nachrichtenseiten", previous: "Vorherige Seite", next: "Nächste Seite" },
 } as const;
 
 export function localizedNewsCategory(category: NewsItem["category"], locale: Locale) {
@@ -31,7 +31,10 @@ function NewsCardBody({ item, locale, translation, hidden }: { item: NewsItem; l
     {excerpt && <p lang={text && !translation ? "sr" : undefined}>{excerpt}</p>}
     <div className="school-news-card__footer">
       {hidden ? <span className="school-news-card__link">{text?.read ?? "Прочитај вест"} <span aria-hidden="true">→</span></span> : <Link className="school-news-card__link" href={href} aria-label={`${text?.read ?? "Прочитај вест"}: ${title}`}>{text?.read ?? "Прочитај вест"} <span aria-hidden="true">→</span></Link>}
-      <span className="school-news-card__views">{item.views === null ? text?.unavailable ?? "Прегледи нису доступни" : `${item.views.toLocaleString(locale === "sr" ? "sr-RS" : locale)} ${text?.views ?? "прегледа"}`}</span>
+      <span className="school-news-card__counts">
+        <span>{item.views === null ? text?.unavailable ?? "Прегледи нису доступни" : `${item.views.toLocaleString(locale === "sr" ? "sr-RS" : locale)} ${text?.views ?? "прегледа"}`}</span>
+        <span>{item.likes === null ? text?.likesUnavailable ?? "Лајкови нису доступни" : `${item.likes.toLocaleString(locale === "sr" ? "sr-RS" : locale)} ${text?.likes ?? "лајкова"}`}</span>
+      </span>
     </div>
   </div>;
 }

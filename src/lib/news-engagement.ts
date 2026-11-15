@@ -27,11 +27,11 @@ export async function withNewsViews(entries: NewsItem[]) {
   const client = engagementClient();
   if (!client || !entries.length) return entries;
   const { data, error } = await client.from("news_engagement")
-    .select("news_key, views").in("news_key", entries.map((entry) => entry.engagementKey));
+    .select("news_key, views, likes").in("news_key", entries.map((entry) => entry.engagementKey));
   if (error) {
-    console.error("Бројеви прегледа вести нису доступни.", error);
+    console.error("Бројеви прегледа и лајкова вести нису доступни.", error);
     return entries;
   }
-  const counts = new Map((data ?? []).map((item) => [item.news_key, Number(item.views)]));
-  return entries.map((entry) => ({ ...entry, views: counts.get(entry.engagementKey) ?? 0 }));
+  const counts = new Map((data ?? []).map((item) => [item.news_key, { views: Number(item.views), likes: Number(item.likes) }]));
+  return entries.map((entry) => ({ ...entry, ...(counts.get(entry.engagementKey) ?? { views: 0, likes: 0 }) }));
 }
