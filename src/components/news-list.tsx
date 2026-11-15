@@ -6,6 +6,7 @@ import { newsIllustration } from "@/lib/news-illustration";
 import { formatNewsCount } from "@/lib/news-counts";
 import { newsTranslation } from "@/lib/news-translations";
 import type { Locale } from "@/lib/localization";
+import { NewsLikeIcon, NewsViewIcon } from "@/components/news-icons";
 
 const labels = {
   en: { categories: ["Announcements", "Teaching and exams", "Competitions and achievements", "Projects and cooperation", "Humanitarian activities", "School life"], read: "Read news", unavailable: "Views unavailable", likesUnavailable: "Likes unavailable", pages: "News pages", previous: "Previous page", next: "Next page" },
@@ -26,6 +27,8 @@ function NewsCardBody({ item, locale, translation, hidden }: { item: NewsItem; l
   const href = locale === "sr" ? item.href : `/${locale}${item.href}`;
   const title = translation?.title ?? item.title;
   const excerpt = translation?.excerpt ?? item.excerpt;
+  const views = item.views === null ? text?.unavailable ?? "Прегледи нису доступни" : formatNewsCount(item.views, "views", locale);
+  const likes = item.likes === null ? text?.likesUnavailable ?? "Лајкови нису доступни" : formatNewsCount(item.likes, "likes", locale);
   return <div className="school-news-card__body" aria-hidden={hidden || undefined} lang={locale}>
     <div className="school-news-card__meta"><span>{category}</span>{item.date && <time dateTime={item.date}>{locale === "sr" ? newsDate(item.date) : new Intl.DateTimeFormat(locale, { dateStyle: "long", timeZone: "UTC" }).format(new Date(`${item.date.slice(0, 10)}T12:00:00Z`))}</time>}</div>
     <h3 lang={text && !translation ? "sr" : undefined}>{hidden ? title : <Link href={href}>{title}</Link>}</h3>
@@ -33,8 +36,8 @@ function NewsCardBody({ item, locale, translation, hidden }: { item: NewsItem; l
     <div className="school-news-card__footer">
       {hidden ? <span className="school-news-card__link">{text?.read ?? "Прочитај вест"} <span aria-hidden="true">→</span></span> : <Link className="school-news-card__link" href={href} aria-label={`${text?.read ?? "Прочитај вест"}: ${title}`}>{text?.read ?? "Прочитај вест"} <span aria-hidden="true">→</span></Link>}
       <span className="school-news-card__counts">
-        <span>{item.views === null ? text?.unavailable ?? "Прегледи нису доступни" : formatNewsCount(item.views, "views", locale)}</span>
-        <span>{item.likes === null ? text?.likesUnavailable ?? "Лајкови нису доступни" : formatNewsCount(item.likes, "likes", locale)}</span>
+        <span className="school-news-card__count" title={views}><NewsViewIcon />{item.views === null ? views : <><span aria-hidden="true">{item.views.toLocaleString(locale === "sr" ? "sr-RS" : locale)}</span><span className="news-visually-hidden">{views}</span></>}</span>
+        <span className="school-news-card__count" title={likes}><NewsLikeIcon />{item.likes === null ? likes : <><span aria-hidden="true">{item.likes.toLocaleString(locale === "sr" ? "sr-RS" : locale)}</span><span className="news-visually-hidden">{likes}</span></>}</span>
       </span>
     </div>
   </div>;

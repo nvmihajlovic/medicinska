@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import test from "node:test";
 import vm from "node:vm";
+import { load } from "cheerio";
 import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import ts from "typescript";
@@ -126,6 +127,9 @@ test("news previews display likes and report unavailable counts without inventin
   const source = readFileSync(new URL("../src/components/news-list.tsx", import.meta.url), "utf8");
   const compiled = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, esModuleInterop: true } }).outputText;
   const realRequire = createRequire(import.meta.url);
+  const iconSource = readFileSync(new URL("../src/components/news-icons.tsx", import.meta.url), "utf8");
+  const iconModule = { exports: {} };
+  vm.runInNewContext(ts.transpileModule(iconSource, { compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX } }).outputText, { module: iconModule, exports: iconModule.exports, require: realRequire });
   const modules = {
     "next/link": { __esModule: true, default: ({ children }) => children },
     "next/image": { __esModule: true, default: () => null },
@@ -134,6 +138,7 @@ test("news previews display likes and report unavailable counts without inventin
     "@/lib/news-illustration": { newsIllustration: () => "" },
     "@/lib/news-translations": { newsTranslation: () => null },
     "@/lib/news-counts": { formatNewsCount },
+    "@/components/news-icons": iconModule.exports,
   };
   const testModule = { exports: {} };
   vm.runInNewContext(compiled, { module: testModule, exports: testModule.exports, require: (id) => modules[id] ?? realRequire(id), Intl });
@@ -144,6 +149,18 @@ test("news previews display likes and report unavailable counts without inventin
   assert.match(render({ views: 2, likes: 2 }), /2 лајка/);
   assert.match(render({ likes: 0 }), /0 лајкова/);
   assert.match(render({ likes: null }), /Лајкови нису доступни/);
+  const $ = load(render({ views: 1, likes: 2 }));
+  const counts = $(".school-news-card__count");
+  assert.equal(counts.length, 2);
+  assert.equal(counts.eq(0).find("svg[aria-hidden=true]").length, 1);
+  assert.equal(counts.eq(1).find("svg.news-icon--heart[aria-hidden=true]").length, 1);
+  assert.equal(counts.eq(0).find("[aria-hidden=true]:not(svg)").text(), "1");
+  assert.equal(counts.eq(1).find("[aria-hidden=true]:not(svg)").text(), "2");
+  assert.equal(counts.eq(0).find(".news-visually-hidden").text(), "1 преглед");
+  assert.equal(counts.eq(1).find(".news-visually-hidden").text(), "2 лајка");
+  const unavailable = load(render({ views: null, likes: null }));
+  assert.match(unavailable(".school-news-card__counts").text(), /Прегледи нису доступни/);
+  assert.match(unavailable(".school-news-card__counts").text(), /Лајкови нису доступни/);
 });
 
 test("view and like counts use the correct Serbian forms including teen and compound numbers", () => {

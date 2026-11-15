@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { openCookieSettings, useCookieConsent } from "@/components/cookie-consent";
 import { LanguageInline, LanguageText } from "@/components/language-size";
+import { NewsLikeIcon, NewsViewIcon } from "@/components/news-icons";
 import { formatNewsCount } from "@/lib/news-counts";
 import type { Locale } from "@/lib/localization";
 
@@ -44,6 +45,7 @@ async function recordView(slug: string, signal: AbortSignal) {
 export function NewsEngagement({ slug, title, locale = "sr" }: { slug: string; title: string; locale?: Locale }) {
   const text = labels[locale];
   const values = (key: keyof typeof labels.sr) => ({ sr: labels.sr[key], en: labels.en[key], de: labels.de[key] });
+  const countValues = (count: number, kind: "views" | "likes") => ({ sr: formatNewsCount(count, kind, "sr"), en: formatNewsCount(count, kind, "en"), de: formatNewsCount(count, kind, "de") });
   const numberLocale = locale === "sr" ? "sr-RS" : locale;
   const [metrics, setMetrics] = useState<Metrics | null>(null);
   const [error, setError] = useState("");
@@ -111,12 +113,12 @@ export function NewsEngagement({ slug, title, locale = "sr" }: { slug: string; t
     <div className="news-engagement">
       <p className="news-engagement__label"><LanguageText locale={locale} values={values("label")} /></p>
       <div className="news-engagement__views" aria-live="polite">
-        <span aria-hidden="true">◉</span>
-        {!allowed ? <LanguageText locale={locale} values={values("consent")} /> : metrics ? <strong><LanguageText locale={locale} values={{ sr: formatNewsCount(metrics.views, "views", "sr"), en: formatNewsCount(metrics.views, "views", "en"), de: formatNewsCount(metrics.views, "views", "de") }} /></strong> : <LanguageText locale={locale} values={values(error ? "countersError" : "loading")} />}
+        <NewsViewIcon />
+        {!allowed ? <LanguageText locale={locale} values={values("consent")} /> : metrics ? <strong title={formatNewsCount(metrics.views, "views", locale)}><span aria-hidden="true">{metrics.views.toLocaleString(numberLocale)}</span><span className="news-visually-hidden"><LanguageText locale={locale} values={countValues(metrics.views, "views")} /></span></strong> : <LanguageText locale={locale} values={values(error ? "countersError" : "loading")} />}
       </div>
       <div className="news-engagement__actions">
-        <button type="button" onClick={toggleLike} disabled={!allowed || !metrics || pending} aria-pressed={allowed && (metrics?.liked ?? false)}>
-          <span aria-hidden="true">{allowed && metrics?.liked ? "♥" : "♡"}</span> <LanguageText locale={locale} values={values(allowed && metrics?.liked ? "liked" : "like")} /> {allowed && metrics && <span className="news-engagement__like-count">{metrics.likes.toLocaleString(numberLocale)}</span>}
+        <button className="news-engagement__like" type="button" onClick={toggleLike} disabled={!allowed || !metrics || pending} aria-pressed={allowed && (metrics?.liked ?? false)} title={text[allowed && metrics?.liked ? "liked" : "like"]}>
+          <NewsLikeIcon /><span className="news-visually-hidden"><LanguageText locale={locale} values={values(allowed && metrics?.liked ? "liked" : "like")} /></span>{allowed && metrics && <><span aria-hidden="true">{metrics.likes.toLocaleString(numberLocale)}</span><span className="news-visually-hidden"><LanguageText locale={locale} values={countValues(metrics.likes, "likes")} /></span></>}
         </button>
         <button type="button" onClick={showShareOptions} aria-expanded={Boolean(shareUrl)} aria-controls="news-share-options"><span aria-hidden="true">↗</span> <LanguageText locale={locale} values={values("share")} /></button>
       </div>
