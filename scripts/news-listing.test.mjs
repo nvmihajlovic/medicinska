@@ -6,6 +6,7 @@ import vm from "node:vm";
 import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import ts from "typescript";
+import { formatNewsCount } from "../src/lib/news-counts.ts";
 
 const source = readFileSync(new URL("../src/lib/news.ts", import.meta.url), "utf8");
 const compiled = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, esModuleInterop: true } }).outputText;
@@ -132,12 +133,31 @@ test("news previews display likes and report unavailable counts without inventin
     "@/lib/news-categories": { newsCategories: [], newsCategoryLabel: () => "Вести" },
     "@/lib/news-illustration": { newsIllustration: () => "" },
     "@/lib/news-translations": { newsTranslation: () => null },
+    "@/lib/news-counts": { formatNewsCount },
   };
   const testModule = { exports: {} };
   vm.runInNewContext(compiled, { module: testModule, exports: testModule.exports, require: (id) => modules[id] ?? realRequire(id), Intl });
   const item = { title: "Вест", excerpt: "", date: null, href: "/vesti/objava-1", image: null, category: "obavestenja", engagementKey: "archive-1", views: 7, likes: 3 };
   const render = (values) => renderToStaticMarkup(React.createElement(testModule.exports.NewsCard, { item: { ...item, ...values } }));
-  assert.match(render({}), /3 лајкова/);
+  assert.match(render({}), /3 лајка/);
+  assert.match(render({ views: 1, likes: 1 }), /1 преглед/);
+  assert.match(render({ views: 2, likes: 2 }), /2 лајка/);
   assert.match(render({ likes: 0 }), /0 лајкова/);
   assert.match(render({ likes: null }), /Лајкови нису доступни/);
+});
+
+test("view and like counts use the correct Serbian forms including teen and compound numbers", () => {
+  for (const [count, view, like] of [
+    [0, "прегледа", "лајкова"], [1, "преглед", "лајк"], [2, "прегледа", "лајка"],
+    [4, "прегледа", "лајка"], [5, "прегледа", "лајкова"], [11, "прегледа", "лајкова"],
+    [12, "прегледа", "лајкова"], [14, "прегледа", "лајкова"], [21, "преглед", "лајк"],
+    [22, "прегледа", "лајка"], [111, "прегледа", "лајкова"], [121, "преглед", "лајк"],
+  ]) {
+    assert.equal(formatNewsCount(count, "views", "sr"), `${count.toLocaleString("sr-RS")} ${view}`);
+    assert.equal(formatNewsCount(count, "likes", "sr"), `${count.toLocaleString("sr-RS")} ${like}`);
+  }
+  assert.equal(formatNewsCount(1, "views", "en"), "1 view");
+  assert.equal(formatNewsCount(2, "likes", "en"), "2 likes");
+  assert.equal(formatNewsCount(1, "views", "de"), "1 Aufruf");
+  assert.equal(formatNewsCount(2, "views", "de"), "2 Aufrufe");
 });

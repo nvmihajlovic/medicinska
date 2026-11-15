@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { openCookieSettings, useCookieConsent } from "@/components/cookie-consent";
 import { LanguageInline, LanguageText } from "@/components/language-size";
+import { formatNewsCount } from "@/lib/news-counts";
 import type { Locale } from "@/lib/localization";
 
 type Metrics = { views: number; likes: number; liked: boolean };
@@ -111,7 +112,7 @@ export function NewsEngagement({ slug, title, locale = "sr" }: { slug: string; t
       <p className="news-engagement__label"><LanguageText locale={locale} values={values("label")} /></p>
       <div className="news-engagement__views" aria-live="polite">
         <span aria-hidden="true">◉</span>
-        {!allowed ? <LanguageText locale={locale} values={values("consent")} /> : metrics ? <strong><LanguageText locale={locale} values={{ sr: `${metrics.views.toLocaleString("sr-RS")} ${labels.sr.views}`, en: `${metrics.views.toLocaleString("en")} ${labels.en.views}`, de: `${metrics.views.toLocaleString("de")} ${labels.de.views}` }} /></strong> : <LanguageText locale={locale} values={values(error ? "countersError" : "loading")} />}
+        {!allowed ? <LanguageText locale={locale} values={values("consent")} /> : metrics ? <strong><LanguageText locale={locale} values={{ sr: formatNewsCount(metrics.views, "views", "sr"), en: formatNewsCount(metrics.views, "views", "en"), de: formatNewsCount(metrics.views, "views", "de") }} /></strong> : <LanguageText locale={locale} values={values(error ? "countersError" : "loading")} />}
       </div>
       <div className="news-engagement__actions">
         <button type="button" onClick={toggleLike} disabled={!allowed || !metrics || pending} aria-pressed={allowed && (metrics?.liked ?? false)}>

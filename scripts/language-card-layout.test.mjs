@@ -7,6 +7,7 @@ import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import ts from "typescript";
 import * as jsxRuntime from "react/jsx-runtime";
+import { formatNewsCount } from "../src/lib/news-counts.ts";
 
 function loadComponent(path, modules) {
   const source = readFileSync(new URL(path, import.meta.url), "utf8");
@@ -54,6 +55,7 @@ test("homepage news cards size for translations and retain the Serbian fallback"
     "@/lib/news-categories": { newsCategories: [{ id: "obavestenja" }], newsCategoryLabel: () => "Обавештења" },
     "@/lib/news-illustration": { newsIllustration: () => "/image.jpg" },
     "@/lib/news-translations": { newsTranslation: (source, locale) => source && locale === "en" ? { title: "Translated title", excerpt: "Translated excerpt" } : null },
+    "@/lib/news-counts": { formatNewsCount },
   });
   const item = { href: "/vesti/objava-1", title: "Оригинални наслов", excerpt: "Оригинални текст", category: "obavestenja", image: null, date: null, views: 10, likes: 3 };
   for (const locale of ["sr", "en", "de"]) {
